@@ -1,0 +1,201 @@
+food_id,name,category,food_type,standard_portion_g,calories_per_portion,calories_per_g,protein_g,carbohydrates_g,fat_g
+1,Meat,Main Course,Meat,177,269,1.52,25,14,12
+2,Classic Grains,Side Dish,Grains,182,264,1.45,9,45,6
+3,Grilled Meat,Main Course,Meat,242,668,2.76,76,39,23
+4,Creamy Tea,Beverage,Tea,266,85,0.32,4,12,2
+5,Dip,Appetizer,Dip,114,269,2.36,12,29,11
+6,House Grains,Side Dish,Grains,190,232,1.22,8,39,5
+7,Vegetarian,Main Course,Vegetarian,310,474,1.53,22,51,20
+8,Sautéed Soup,Appetizer,Soup,218,214,0.98,12,24,8
+9,Organic Grains,Side Dish,Grains,142,257,1.81,8,42,7
+10,Creamy Fish,Main Course,Fish,262,328,1.25,29,17,16
+11,Grains,Side Dish,Grains,230,310,1.35,9,45,11
+12,Soda,Beverage,Soda,364,124,0.34,6,17,4
+13,Grilled Bread,Appetizer,Bread,86,271,3.15,11,40,7
+14,Organic Sandwich,Main Course,Sandwich,313,745,2.38,34,80,32
+15,Homemade Meat,Main Course,Meat,216,626,2.9,47,55,24
+16,Pastry,Dessert,Pastry,161,501,3.11,15,84,12
+17,Baked Soda,Beverage,Soda,380,186,0.49,11,18,8
+18,Creamy Dip,Appetizer,Dip,106,333,3.14,15,38,14
+19,Classic Margherita Pizza,Main Course,Pizza,447,1354,3.03,75,140,55
+20,Juice,Beverage,Juice,296,181,0.61,7,25,6
+21,Vegetarian,Main Course,Vegetarian,398,525,1.32,30,63,17
+22,Smoked Coffee,Beverage,Coffee,295,180,0.61,10,23,5
+23,House Juice,Beverage,Juice,225,155,0.69,9,19,5
+24,Fried Vegetables,Side Dish,Vegetables,224,269,1.2,12,38,8
+25,Alcohol,Beverage,Alcohol,327,461,1.41,21,55,17
+26,Fried Burger,Main Course,Burger,325,962,2.96,87,46,48
+27,Signature Tuna Salad,Appetizer,Salad,256,154,0.6,6,17,7
+28,Braised Grains,Side Dish,Grains,121,217,1.79,8,34,5
+29,Spicy Beans,Side Dish,Beans,256,456,1.78,19,63,14
+30,Braised Rice Dish,Main Course,Rice Dish,268,622,2.32,29,81,20
+31,Signature Pudding,Dessert,Pudding,141,375,2.66,17,47,13
+32,Roasted Fruit,Dessert,Fruit,224,220,0.98,7,26,10
+33,Homemade BBQ Chicken Pizza,Main Course,Pizza,320,883,2.76,49,97,33
+34,Roasted Fruit,Dessert,Fruit,238,202,0.85,8,22,9
+35,Traditional Spaghetti Alfredo,Main Course,Pasta,340,547,1.61,25,95,7
+36,Chef's Avocado Salad,Appetizer,Salad,272,291,1.07,9,40,11
+37,Fresh Bread,Appetizer,Bread,90,274,3.04,9,47,6
+38,Organic Meat,Main Course,Meat,267,414,1.55,50,17,16
+39,Spicy Finger Food,Appetizer,Finger Food,154,487,3.16,26,65,14
+40,Coffee,Beverage,Coffee,392,59,0.15,3,8,2
+41,Coffee,Beverage,Coffee,262,105,0.4,5,11,4
+42,Coffee,Beverage,Coffee,294,165,0.56,6,20,7
+43,Organic Rice Dish,Main Course,Rice Dish,280,577,2.06,17,77,22
+44,Braised Water,Beverage,Water,281,0,0.0,0,0,0
+45,Fried Ice Cream,Dessert,Ice Cream,103,240,2.33,7,33,9
+46,Roasted Juice,Beverage,Juice,236,156,0.66,7,22,5
+47,Roasted Beans,Side Dish,Beans,171,241,1.41,11,33,7
+48,Chef's Sandwich,Main Course,Sandwich,225,648,2.88,35,70,26
+49,Braised Bread,Appetizer,Bread,133,380,2.86,17,48,13
+50,Sautéed Juice,Beverage,Juice,287,149,0.52,9,15,6
+51,Traditional Soup,Appetizer,Soup,294,200,0.68,10,24,7
+52,Steamed Soup,Appetizer,Soup,244,281,1.15,13,38,8
+53,Roasted Alcohol,Beverage,Alcohol,204,288,1.41,12,36,11
+54,Baked Penne Marinara,Main Course,Pasta,291,439,1.51,21,58,14
+55,Beans,Side Dish,Beans,245,365,1.49,19,38,15
+56,Traditional Soda,Beverage,Soda,309,102,0.33,6,13,3
+57,Pastry,Dessert,Pastry,119,426,3.58,9,61,16
+58,Signature Potatoes,Side Dish,Potatoes,293,281,0.96,14,36,9
+59,Smoked Pastry,Dessert,Pastry,165,810,4.91,29,108,29
+60,Fried Vegetarian,Main Course,Vegetarian,346,519,1.5,28,60,18
+61,Grains,Side Dish,Grains,100,197,1.97,5,25,9
+62,Organic Soda,Beverage,Soda,327,160,0.49,8,21,5
+63,Organic Beans,Side Dish,Beans,249,421,1.69,25,50,13
+64,Finger Food,Appetizer,Finger Food,248,965,3.89,37,118,38
+65,Steamed Soup,Appetizer,Soup,207,248,1.2,11,27,11
+66,House Meat,Main Course,Meat,299,472,1.58,46,24,21
+67,Homemade Dip,Appetizer,Dip,58,197,3.39,9,23,8
+68,Homemade Cake,Dessert,Cake,163,706,4.33,23,110,19
+69,Homemade Potatoes,Side Dish,Potatoes,229,442,1.93,25,41,20
+70,Stuffed Pudding,Dessert,Pudding,163,458,2.81,-6,80,18
+71,Organic Finger Food,Appetizer,Finger Food,117,317,2.71,14,42,10
+72,Coffee,Beverage,Coffee,382,19,0.05,1,3,1
+73,Roasted Fruit,Dessert,Fruit,218,118,0.54,6,14,4
+74,Steamed Potatoes,Side Dish,Potatoes,299,323,1.08,20,33,12
+75,Braised Smoothie,Beverage,Smoothie,309,272,0.88,10,31,12
+76,Organic Alcohol,Beverage,Alcohol,304,334,1.1,17,42,11
+77,Organic Potatoes,Side Dish,Potatoes,173,308,1.78,13,42,10
+78,Roasted Greek Salad,Appetizer,Salad,241,263,1.09,10,30,12
+79,Braised Vegetables,Side Dish,Vegetables,221,241,1.09,7,31,10
+80,House Pastry,Dessert,Pastry,88,303,3.44,11,48,7
+81,Chef's Soup,Appetizer,Soup,365,310,0.85,17,35,12
+82,Chef's Coffee,Beverage,Coffee,374,94,0.25,4,13,3
+83,Smoothie,Beverage,Smoothie,486,296,0.61,16,37,9
+84,Chef's Smoothie,Beverage,Smoothie,476,243,0.51,14,29,8
+85,Homemade Fish,Main Course,Fish,226,273,1.21,24,15,13
+86,Creamy Cobb Salad,Appetizer,Salad,152,263,1.73,8,28,13
+87,Signature Ravioli Primavera,Main Course,Pasta,408,681,1.67,33,111,11
+88,Finger Food,Appetizer,Finger Food,187,503,2.69,27,67,14
+89,Stuffed Supreme Pizza,Main Course,Pizza,430,1329,3.09,63,183,38
+90,Dip,Appetizer,Dip,50,116,2.32,6,12,5
+91,Signature Vegetables,Side Dish,Vegetables,219,247,1.13,7,27,12
+92,Pastry,Dessert,Pastry,175,578,3.3,4,85,25
+93,Chef's Smoothie,Beverage,Smoothie,355,525,1.48,25,56,22
+94,Vegetarian,Main Course,Vegetarian,374,640,1.71,33,76,23
+95,Beans,Side Dish,Beans,181,197,1.09,8,25,7
+96,Fish,Main Course,Fish,270,427,1.58,51,3,23
+97,Cake,Dessert,Cake,160,626,3.91,22,86,22
+98,Finger Food,Appetizer,Finger Food,187,475,2.54,27,56,16
+99,Coffee,Beverage,Coffee,214,83,0.39,4,10,3
+100,Baked Vegetables,Side Dish,Vegetables,236,276,1.17,8,38,10
+101,Signature Cake,Dessert,Cake,150,590,3.93,7,94,20
+102,Fish,Main Course,Fish,230,540,2.35,43,30,28
+103,Baked Meat Lovers Pizza,Main Course,Pizza,340,1085,3.19,63,139,31
+104,Fresh Cake,Dessert,Cake,190,739,3.89,10,115,26
+105,Fried Soup,Appetizer,Soup,343,446,1.3,21,49,18
+106,Baked Beans,Side Dish,Beans,273,396,1.45,21,45,14
+107,BBQ Chicken Pizza,Main Course,Pizza,419,1320,3.15,65,152,50
+108,Homemade Grains,Side Dish,Grains,127,227,1.79,9,36,6
+109,Roasted Margherita Pizza,Main Course,Pizza,399,1029,2.58,49,135,32
+110,Finger Food,Appetizer,Finger Food,244,691,2.83,41,73,26
+111,House Fruit,Dessert,Fruit,230,182,0.79,8,22,7
+112,Grilled Ice Cream,Dessert,Ice Cream,142,344,2.42,0,53,15
+113,Fried Pastry,Dessert,Pastry,164,569,3.47,9,93,18
+114,Creamy Fish,Main Course,Fish,177,409,2.31,41,26,16
+115,Steamed Pudding,Dessert,Pudding,136,325,2.39,15,43,10
+116,Finger Food,Appetizer,Finger Food,199,527,2.65,30,66,16
+117,Smoked Water,Beverage,Water,465,0,0.0,0,0,0
+118,Classic Cake,Dessert,Cake,159,703,4.42,31,97,21
+119,Signature Cake,Dessert,Cake,166,616,3.71,-5,103,25
+120,Classic Fruit,Dessert,Fruit,140,74,0.53,4,9,2
+121,Coffee,Beverage,Coffee,290,270,0.93,12,33,10
+122,House Ice Cream,Dessert,Ice Cream,197,396,2.01,-2,68,14
+123,Stuffed Dip,Appetizer,Dip,103,232,2.25,9,33,7
+124,Fried Rice Dish,Main Course,Rice Dish,394,626,1.59,23,99,15
+125,Water,Beverage,Water,408,0,0.0,0,0,0
+126,Fried Rice Dish,Main Course,Rice Dish,373,847,2.27,38,111,28
+127,Seasonal Cake,Dessert,Cake,183,732,4.0,21,113,22
+128,Sautéed Rice Dish,Main Course,Rice Dish,373,929,2.49,25,151,25
+129,Baked Dip,Appetizer,Dip,83,277,3.34,16,28,11
+130,Spicy Dip,Appetizer,Dip,62,192,3.09,7,26,6
+131,Chef's Ice Cream,Dessert,Ice Cream,139,371,2.67,16,51,11
+132,Fried Ice Cream,Dessert,Ice Cream,167,489,2.93,16,72,15
+133,Baked Burger,Main Course,Burger,433,1433,3.31,115,125,53
+134,Signature Water,Beverage,Water,318,0,0.0,0,0,0
+135,Smoked Vegetables,Side Dish,Vegetables,101,109,1.08,3,16,4
+136,Grains,Side Dish,Grains,240,324,1.35,12,42,12
+137,Signature Soda,Beverage,Soda,406,171,0.42,7,21,7
+138,Smoked Linguine Carbonara,Main Course,Pasta,410,689,1.68,31,96,20
+139,Classic Tea,Beverage,Tea,297,119,0.4,6,16,3
+140,Sautéed Sandwich,Main Course,Sandwich,359,951,2.65,40,126,32
+141,Organic Burger,Main Course,Burger,297,974,3.28,86,44,50
+142,Chef's Ice Cream,Dessert,Ice Cream,162,434,2.68,16,67,11
+143,Organic Beans,Side Dish,Beans,177,232,1.31,10,32,7
+144,Potatoes,Side Dish,Potatoes,245,213,0.87,9,29,7
+145,Steamed Tea,Beverage,Tea,345,3,0.01,0,0,0
+146,Steamed Ice Cream,Dessert,Ice Cream,177,425,2.4,6,67,15
+147,Caesar Salad,Appetizer,Salad,273,317,1.16,13,45,9
+148,Fried Pastry,Dessert,Pastry,168,722,4.3,23,109,21
+149,Stuffed Potatoes,Side Dish,Potatoes,249,366,1.47,20,42,13
+150,Homemade Ice Cream,Dessert,Ice Cream,163,510,3.13,23,68,16
+151,Stuffed Finger Food,Appetizer,Finger Food,247,729,2.95,34,99,22
+152,Beans,Side Dish,Beans,261,462,1.77,20,55,18
+153,Spicy Ice Cream,Dessert,Ice Cream,161,444,2.76,28,59,10
+154,Cake,Dessert,Cake,134,478,3.57,22,68,13
+155,Grilled Dip,Appetizer,Dip,137,318,2.32,18,35,12
+156,Stuffed Pudding,Dessert,Pudding,193,322,1.67,5,53,10
+157,Fresh Meat Lovers Pizza,Main Course,Pizza,361,931,2.58,44,124,29
+158,Classic Meat,Main Course,Meat,265,768,2.9,80,36,34
+159,Spicy Finger Food,Appetizer,Finger Food,191,674,3.53,28,85,24
+160,Creamy Avocado Salad,Appetizer,Salad,246,310,1.26,8,35,15
+161,Traditional Fruit,Dessert,Fruit,231,148,0.64,4,21,5
+162,Chef's Potatoes,Side Dish,Potatoes,208,308,1.48,13,42,10
+163,Potatoes,Side Dish,Potatoes,254,503,1.98,22,70,15
+164,Chef's Finger Food,Appetizer,Finger Food,127,429,3.38,23,48,16
+165,Classic Bread,Appetizer,Bread,67,212,3.16,9,35,4
+166,Fresh Soda,Beverage,Soda,374,142,0.38,8,14,6
+167,Juice,Beverage,Juice,227,129,0.57,7,14,5
+168,Spicy Burger,Main Course,Burger,315,1049,3.33,112,61,40
+169,Alcohol,Beverage,Alcohol,274,211,0.77,11,24,8
+170,Tea,Beverage,Tea,373,45,0.12,2,5,2
+171,Braised Soda,Beverage,Soda,457,219,0.48,13,21,9
+172,Seasonal Chicken Salad,Appetizer,Salad,206,391,1.9,17,44,16
+173,Fried Pastry,Dessert,Pastry,170,726,4.27,30,113,17
+174,Smoothie,Beverage,Smoothie,498,468,0.94,18,69,13
+175,Vegetables,Side Dish,Vegetables,111,34,0.31,1,5,1
+176,Sandwich,Main Course,Sandwich,270,748,2.77,40,95,23
+177,Potatoes,Side Dish,Potatoes,249,428,1.72,19,61,12
+178,Cake,Dessert,Cake,177,697,3.94,32,100,19
+179,Traditional Finger Food,Appetizer,Finger Food,110,431,3.92,21,45,18
+180,Vegetarian,Main Course,Vegetarian,295,327,1.11,16,34,14
+181,Ice Cream,Dessert,Ice Cream,134,454,3.39,21,62,14
+182,House Potatoes,Side Dish,Potatoes,291,317,1.09,13,44,10
+183,Bread,Appetizer,Bread,132,444,3.36,21,74,7
+184,Fried Vegetarian,Main Course,Vegetarian,350,546,1.56,23,78,16
+185,Homemade Vegetables,Side Dish,Vegetables,125,58,0.46,3,8,2
+186,Homemade Grains,Side Dish,Grains,162,285,1.76,11,46,6
+187,Steamed Grains,Side Dish,Grains,187,352,1.88,10,52,12
+188,Stuffed Burger,Main Course,Burger,395,1379,3.49,110,103,58
+189,Rice Dish,Main Course,Rice Dish,311,694,2.23,21,108,20
+190,Grilled Bread,Appetizer,Bread,51,166,3.26,7,21,6
+191,Classic Soup,Appetizer,Soup,265,172,0.65,8,19,7
+192,Grilled Tea,Beverage,Tea,344,151,0.44,8,18,5
+193,Braised Juice,Beverage,Juice,324,175,0.54,10,22,5
+194,Roasted Pudding,Dessert,Pudding,158,370,2.34,6,57,13
+195,Chef's Margherita Pizza,Main Course,Pizza,427,1132,2.65,62,118,46
+196,Supreme Pizza,Main Course,Pizza,403,1185,2.94,49,159,39
+197,Organic Soup,Appetizer,Soup,320,397,1.24,25,36,17
+198,Grilled Coffee,Beverage,Coffee,299,54,0.18,3,5,2
+199,Seasonal Pastry,Dessert,Pastry,100,413,4.13,7,72,11
+200,Homemade Vegetables,Side Dish,Vegetables,205,291,1.42,8,40,11

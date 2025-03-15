@@ -1,0 +1,560 @@
+user_id,food_id,standard_portion_g,ordered_portion_g,consumed_portion_g,leftover_g,leftover_category,satisfaction_rating,record_id,optimal_portion_g,age,gender,weight_kg,height_cm,activity_level,tdee,category,food_type,calories_per_g,protein_g,carbohydrates_g,fat_g
+1,39,154,159.0,127.5,31.5,Medium,3.0,2,140.0,46,Male,72.6,180.8,Extremely Active,3099,Appetizer,Finger Food,3.16,26,65,14
+3,39,154,192.33333333333334,130.0,62.333333333333336,Large,3.3333333333333335,3,158.0,47,Female,59.7,161.5,Extremely Active,2301,Appetizer,Finger Food,3.16,26,65,14
+16,39,154,136.0,108.5,27.5,Medium,3.5,2,121.0,40,Male,94.8,185.5,Very Active,3299,Appetizer,Finger Food,3.16,26,65,14
+35,39,154,209.0,154.0,55.0,Medium,3.0,2,169.0,33,Male,95.7,178.6,Very Active,3300,Appetizer,Finger Food,3.16,26,65,14
+60,39,154,128.0,85.5,42.5,Medium,3.0,2,94.0,54,Male,70.2,174.6,Very Active,2637,Appetizer,Finger Food,3.16,26,65,14
+1,51,294,323.0,281.5,41.5,Small,4.5,2,323.0,46,Male,72.6,180.8,Extremely Active,3099,Appetizer,Soup,0.68,10,24,7
+27,51,294,233.0,163.0,70.0,Medium,2.0,2,179.0,66,Male,70.1,171.1,Lightly Active,1988,Appetizer,Soup,0.68,10,24,7
+43,51,294,222.0,171.0,51.0,Medium,3.0,2,188.0,39,Female,62.6,170.3,Moderately Active,2068,Appetizer,Soup,0.68,10,24,7
+48,51,294,204.0,172.0,32.0,Medium,2.5,2,189.0,48,Female,78.9,158.1,Moderately Active,2133,Appetizer,Soup,0.68,10,24,7
+1,59,165,167.5,144.5,23.0,Medium,3.5,2,155.0,46,Male,72.6,180.8,Extremely Active,3099,Dessert,Pastry,4.91,29,108,29
+1,105,343,336.0,274.5,61.5,Medium,2.5,2,302.0,46,Male,72.6,180.8,Extremely Active,3099,Appetizer,Soup,1.3,21,49,18
+7,105,343,423.0,377.5,45.5,None,3.0,4,508.0,45,Male,78.1,169.8,Extremely Active,3082,Appetizer,Soup,1.3,21,49,18
+15,105,343,232.0,205.0,27.0,Medium,4.0,2,236.0,45,Female,74.8,167.0,Lightly Active,1932,Appetizer,Soup,1.3,21,49,18
+39,105,343,210.0,172.0,38.0,Medium,1.0,2,189.0,52,Female,63.4,168.4,Sedentary,1518,Appetizer,Soup,1.3,21,49,18
+61,105,343,451.5,409.0,42.5,None,2.5,2,542.0,47,Male,89.3,180.1,Very Active,3085,Appetizer,Soup,1.3,21,49,18
+1,131,139,191.0,152.0,39.0,Medium,4.0,2,175.0,46,Male,72.6,180.8,Extremely Active,3099,Dessert,Ice Cream,2.67,16,51,11
+29,131,139,105.0,69.5,35.5,Medium,4.0,2,80.0,19,Female,79.8,150.0,Very Active,2552,Dessert,Ice Cream,2.67,16,51,11
+58,131,139,105.5,93.5,12.0,Small,4.0,2,106.0,64,Female,48.9,166.9,Sedentary,1261,Dessert,Ice Cream,2.67,16,51,11
+65,131,139,102.5,67.5,35.0,Medium,1.5,2,74.0,19,Female,61.1,165.4,Moderately Active,2153,Dessert,Ice Cream,2.67,16,51,11
+1,162,208,181.5,122.5,59.0,Medium,4.5,2,141.0,46,Male,72.6,180.8,Extremely Active,3099,Side Dish,Potatoes,1.48,13,42,10
+2,162,208,283.0,248.0,35.0,Medium,3.0,2,273.0,40,Male,89.2,188.1,Extremely Active,3558,Side Dish,Potatoes,1.48,13,42,10
+13,162,208,169.0,169.0,0.0,None,2.6666666666666665,3,203.0,41,Non-binary,60.5,157.5,Moderately Active,1895,Side Dish,Potatoes,1.48,13,42,10
+60,162,208,191.0,134.0,57.0,Medium,3.5,2,160.0,54,Male,70.2,174.6,Very Active,2637,Side Dish,Potatoes,1.48,13,42,10
+1,176,270,255.66666666666666,228.0,27.666666666666668,None,3.3333333333333335,3,240.0,46,Male,72.6,180.8,Extremely Active,3099,Main Course,Sandwich,2.77,40,95,23
+31,176,270,155.0,129.5,25.5,Medium,3.0,2,142.0,28,Female,70.4,168.1,Sedentary,1745,Main Course,Sandwich,2.77,40,95,23
+88,176,270,206.0,193.0,13.0,None,3.0,2,247.0,33,Female,67.1,167.2,Lightly Active,1911,Main Course,Sandwich,2.77,40,95,23
+2,28,121,168.0,153.0,15.0,None,3.5,2,160.0,40,Male,89.2,188.1,Extremely Active,3558,Side Dish,Grains,1.79,8,34,5
+26,28,121,83.5,60.5,23.0,Medium,3.0,2,67.0,61,Male,73.8,172.3,Sedentary,1819,Side Dish,Grains,1.79,8,34,5
+56,28,121,70.0,35.5,34.5,Large,3.0,2,39.0,47,Female,60.1,164.4,Moderately Active,1911,Side Dish,Grains,1.79,8,34,5
+86,28,121,70.0,57.0,13.0,Medium,3.5,2,63.0,54,Female,54.3,170.1,Sedentary,1410,Side Dish,Grains,1.79,8,34,5
+98,28,121,105.5,83.0,22.5,Medium,3.5,2,93.0,30,Female,62.4,167.0,Lightly Active,1866,Side Dish,Grains,1.79,8,34,5
+2,48,225,329.0,277.5,51.5,Medium,3.0,2,305.0,40,Male,89.2,188.1,Extremely Active,3558,Main Course,Sandwich,2.88,35,70,26
+86,48,225,168.0,134.0,34.0,Medium,2.6666666666666665,3,147.0,54,Female,54.3,170.1,Sedentary,1410,Main Course,Sandwich,2.88,35,70,26
+99,48,225,279.5,184.5,95.0,Medium,2.0,2,203.0,51,Male,78.9,185.9,Lightly Active,2339,Main Course,Sandwich,2.88,35,70,26
+2,76,304,334.3333333333333,279.3333333333333,55.0,Large,4.0,3,321.0,40,Male,89.2,188.1,Extremely Active,3558,Beverage,Alcohol,1.1,17,42,11
+2,143,177,231.0,190.5,40.5,Medium,3.5,2,209.0,40,Male,89.2,188.1,Extremely Active,3558,Side Dish,Beans,1.31,10,32,7
+38,143,177,244.0,235.0,9.0,None,4.0,2,244.0,50,Male,82.8,172.2,Very Active,2862,Side Dish,Beans,1.31,10,32,7
+44,143,177,177.5,177.5,0.0,None,3.5,2,178.0,50,Male,112.6,175.1,Extremely Active,3755,Side Dish,Beans,1.31,10,32,7
+50,143,177,167.0,148.0,19.0,Small,4.0,2,167.0,67,Male,120.0,180.6,Extremely Active,3798,Side Dish,Beans,1.31,10,32,7
+68,143,177,213.0,143.0,70.0,Medium,2.0,2,157.0,67,Male,82.5,173.6,Extremely Active,3002,Side Dish,Beans,1.31,10,32,7
+2,145,345,562.0,444.5,117.5,Medium,3.0,2,489.0,40,Male,89.2,188.1,Extremely Active,3558,Beverage,Tea,0.01,0,0,0
+92,145,345,217.5,217.5,0.0,None,3.0,2,261.0,35,Female,47.7,175.1,Sedentary,1482,Beverage,Tea,0.01,0,0,0
+99,145,345,315.5,222.5,93.0,Medium,3.5,2,264.0,51,Male,78.9,185.9,Lightly Active,2339,Beverage,Tea,0.01,0,0,0
+2,195,427,453.5,374.5,79.0,Medium,3.5,2,410.0,40,Male,89.2,188.1,Extremely Active,3558,Main Course,Pizza,2.65,62,118,46
+10,195,427,481.0,474.5,6.5,Small,4.0,2,481.0,27,Male,90.6,178.5,Very Active,3263,Main Course,Pizza,2.65,62,118,46
+31,195,427,267.0,216.0,51.0,Medium,3.5,2,239.0,28,Female,70.4,168.1,Sedentary,1745,Main Course,Pizza,2.65,62,118,46
+63,195,427,250.5,216.5,34.0,Small,4.0,2,250.0,71,Male,81.6,173.9,Lightly Active,2135,Main Course,Pizza,2.65,62,118,46
+71,195,427,290.5,259.5,31.0,Small,4.0,2,290.0,54,Female,71.1,169.5,Sedentary,1607,Main Course,Pizza,2.65,62,118,46
+3,19,447,488.5,475.0,13.5,None,3.5,2,481.0,47,Female,59.7,161.5,Extremely Active,2301,Main Course,Pizza,3.03,75,140,55
+55,19,447,516.5,422.0,94.5,Medium,2.5,2,464.0,52,Male,89.9,186.5,Extremely Active,3440,Main Course,Pizza,3.03,75,140,55
+75,19,447,338.5,263.5,75.0,Medium,3.5,2,297.0,58,Male,91.8,174.1,Very Active,2969,Main Course,Pizza,3.03,75,140,55
+3,122,197,177.5,155.0,22.5,Medium,3.0,2,170.0,47,Female,59.7,161.5,Extremely Active,2301,Dessert,Ice Cream,2.01,-2,68,14
+73,122,197,138.0,117.0,21.0,Medium,3.5,2,126.0,40,Female,67.6,162.6,Sedentary,1597,Dessert,Ice Cream,2.01,-2,68,14
+81,122,197,231.0,184.0,47.0,Medium,3.0,2,202.0,34,Female,78.6,161.0,Moderately Active,2265,Dessert,Ice Cream,2.01,-2,68,14
+3,142,162,192.5,160.0,32.5,Medium,3.5,2,175.0,47,Female,59.7,161.5,Extremely Active,2301,Dessert,Ice Cream,2.68,16,67,11
+96,142,162,185.0,154.0,31.0,Medium,2.0,2,169.0,72,Male,83.6,178.8,Extremely Active,3038,Dessert,Ice Cream,2.68,16,67,11
+3,144,245,213.0,186.5,26.5,Medium,3.0,2,205.0,47,Female,59.7,161.5,Extremely Active,2301,Side Dish,Potatoes,0.87,9,29,7
+75,144,245,198.0,129.5,68.5,Large,2.5,2,142.0,58,Male,91.8,174.1,Very Active,2969,Side Dish,Potatoes,0.87,9,29,7
+82,144,245,233.5,222.5,11.0,None,4.0,2,234.0,27,Female,65.0,163.2,Very Active,2369,Side Dish,Potatoes,0.87,9,29,7
+3,191,265,280.0,218.5,61.5,Medium,3.5,2,246.0,47,Female,59.7,161.5,Extremely Active,2301,Appetizer,Soup,0.65,8,19,7
+34,191,265,205.0,143.5,61.5,Medium,2.5,2,158.0,56,Male,76.1,171.5,Lightly Active,2143,Appetizer,Soup,0.65,8,19,7
+38,191,265,267.0,261.0,6.0,None,4.0,2,267.0,50,Male,82.8,172.2,Very Active,2862,Appetizer,Soup,0.65,8,19,7
+61,191,265,274.5,234.0,40.5,Medium,3.0,2,257.0,47,Male,89.3,180.1,Very Active,3085,Appetizer,Soup,0.65,8,19,7
+4,6,190,204.0,190.5,13.5,None,3.5,2,197.0,39,Male,87.2,159.9,Very Active,2901,Side Dish,Grains,1.22,8,39,5
+4,12,364,383.0,309.0,74.0,Medium,4.0,2,355.0,39,Male,87.2,159.9,Very Active,2901,Beverage,Soda,0.34,6,17,4
+23,12,364,261.3333333333333,176.0,85.33333333333333,Medium,3.3333333333333335,3,214.0,28,Female,61.4,160.4,Sedentary,1578,Beverage,Soda,0.34,6,17,4
+78,12,364,232.0,202.0,30.0,Medium,2.5,2,222.0,46,Female,61.8,160.0,Very Active,2117,Beverage,Soda,0.34,6,17,4
+81,12,364,242.5,172.5,70.0,Medium,3.5,2,204.0,34,Female,78.6,161.0,Moderately Active,2265,Beverage,Soda,0.34,6,17,4
+4,62,327,363.5,298.0,65.5,Medium,2.0,2,328.0,39,Male,87.2,159.9,Very Active,2901,Beverage,Soda,0.49,8,21,5
+15,62,327,273.5,196.5,77.0,Medium,3.5,2,231.0,45,Female,74.8,167.0,Lightly Active,1932,Beverage,Soda,0.49,8,21,5
+36,62,327,269.0,203.0,66.0,Medium,1.5,2,223.0,65,Male,86.0,177.4,Moderately Active,2556,Beverage,Soda,0.49,8,21,5
+43,62,327,262.0,226.5,35.5,Medium,4.0,2,260.0,39,Female,62.6,170.3,Moderately Active,2068,Beverage,Soda,0.49,8,21,5
+59,62,327,358.5,358.5,0.0,None,3.5,2,358.0,18,Female,75.3,177.7,Moderately Active,2500,Beverage,Soda,0.49,8,21,5
+77,62,327,359.5,259.0,100.5,Medium,2.0,2,285.0,33,Female,64.9,160.8,Lightly Active,1826,Beverage,Soda,0.49,8,21,5
+92,62,327,205.5,175.0,30.5,Small,4.5,2,206.0,35,Female,47.7,175.1,Sedentary,1482,Beverage,Soda,0.49,8,21,5
+4,82,374,411.5,373.0,38.5,None,4.0,2,412.0,39,Male,87.2,159.9,Very Active,2901,Beverage,Coffee,0.25,4,13,3
+40,82,374,459.5,414.0,45.5,Small,3.5,2,434.0,35,Male,70.4,156.8,Extremely Active,2876,Beverage,Coffee,0.25,4,13,3
+49,82,374,402.0,314.5,87.5,Medium,3.0,2,346.0,34,Female,82.8,167.7,Lightly Active,2124,Beverage,Coffee,0.25,4,13,3
+69,82,374,314.5,302.0,12.5,Small,4.5,2,314.0,51,Female,47.8,164.8,Lightly Active,1502,Beverage,Coffee,0.25,4,13,3
+100,82,374,305.0,291.0,14.0,None,3.0,2,366.0,22,Female,90.4,161.6,Extremely Active,3122,Beverage,Coffee,0.25,4,13,3
+4,84,476,543.5,543.5,0.0,None,4.0,2,544.0,39,Male,87.2,159.9,Very Active,2901,Beverage,Smoothie,0.51,14,29,8
+84,84,476,333.0,318.5,14.5,None,3.0,2,400.0,74,Female,56.6,156.3,Sedentary,1214,Beverage,Smoothie,0.51,14,29,8
+4,93,355,371.0,283.0,88.0,Medium,3.0,2,311.0,39,Male,87.2,159.9,Very Active,2901,Beverage,Smoothie,1.48,25,56,22
+60,93,355,503.0,503.0,0.0,None,3.5,2,503.0,54,Male,70.2,174.6,Very Active,2637,Beverage,Smoothie,1.48,25,56,22
+4,100,236,294.0,246.5,47.5,Medium,3.5,2,268.0,39,Male,87.2,159.9,Very Active,2901,Side Dish,Vegetables,1.17,8,38,10
+31,100,236,187.0,149.5,37.5,Medium,2.0,2,164.0,28,Female,70.4,168.1,Sedentary,1745,Side Dish,Vegetables,1.17,8,38,10
+100,100,236,240.5,180.5,60.0,Medium,3.5,2,208.0,22,Female,90.4,161.6,Extremely Active,3122,Side Dish,Vegetables,1.17,8,38,10
+4,139,297,310.5,267.0,43.5,Small,3.0,2,287.0,39,Male,87.2,159.9,Very Active,2901,Beverage,Tea,0.4,6,16,3
+65,139,297,420.0,280.5,139.5,Medium,3.5,2,343.0,19,Female,61.1,165.4,Moderately Active,2153,Beverage,Tea,0.4,6,16,3
+70,139,297,400.0,292.0,108.0,Medium,4.0,2,336.0,28,Male,87.0,179.5,Extremely Active,3528,Beverage,Tea,0.4,6,16,3
+72,139,297,350.0,223.5,126.5,Medium,2.5,2,246.0,35,Male,61.7,180.4,Extremely Active,2992,Beverage,Tea,0.4,6,16,3
+88,139,297,184.5,170.5,14.0,None,3.5,2,177.0,33,Female,67.1,167.2,Lightly Active,1911,Beverage,Tea,0.4,6,16,3
+4,169,274,304.5,254.0,50.5,Medium,2.5,2,279.0,39,Male,87.2,159.9,Very Active,2901,Beverage,Alcohol,0.77,11,24,8
+81,169,274,292.5,292.5,0.0,None,3.5,2,292.0,34,Female,78.6,161.0,Moderately Active,2265,Beverage,Alcohol,0.77,11,24,8
+89,169,274,323.5,301.5,22.0,Small,3.0,2,311.0,41,Male,89.4,166.8,Very Active,2996,Beverage,Alcohol,0.77,11,24,8
+4,178,177,234.33333333333334,180.33333333333334,54.0,Medium,3.0,3,198.0,39,Male,87.2,159.9,Very Active,2901,Dessert,Cake,3.94,32,100,19
+5,178,177,180.0,134.5,45.5,Medium,4.0,2,155.0,69,Male,81.3,173.2,Moderately Active,2411,Dessert,Cake,3.94,32,100,19
+5,70,163,186.5,174.0,12.5,Small,4.0,2,186.0,69,Male,81.3,173.2,Moderately Active,2411,Dessert,Pudding,2.81,-6,80,18
+7,70,163,221.5,203.0,18.5,None,3.0,2,266.0,45,Male,78.1,169.8,Extremely Active,3082,Dessert,Pudding,2.81,-6,80,18
+26,70,163,169.5,143.5,26.0,Medium,2.5,2,158.0,61,Male,73.8,172.3,Sedentary,1819,Dessert,Pudding,2.81,-6,80,18
+30,70,163,178.0,128.5,49.5,Medium,2.5,2,141.0,34,Female,78.8,160.2,Very Active,2516,Dessert,Pudding,2.81,-6,80,18
+41,70,163,176.0,159.0,17.0,Medium,3.0,2,175.0,21,Male,66.4,171.7,Very Active,2825,Dessert,Pudding,2.81,-6,80,18
+48,70,163,189.0,176.0,13.0,Small,4.0,2,189.0,48,Female,78.9,158.1,Moderately Active,2133,Dessert,Pudding,2.81,-6,80,18
+5,123,103,122.0,104.33333333333333,17.666666666666668,Medium,2.6666666666666665,3,115.0,69,Male,81.3,173.2,Moderately Active,2411,Appetizer,Dip,2.25,9,33,7
+5,130,62,56.0,56.0,0.0,None,3.0,2,67.0,69,Male,81.3,173.2,Moderately Active,2411,Appetizer,Dip,3.09,7,26,6
+13,130,62,58.0,41.5,16.5,Medium,3.0,2,46.0,41,Non-binary,60.5,157.5,Moderately Active,1895,Appetizer,Dip,3.09,7,26,6
+63,130,62,42.0,40.0,2.0,None,2.0,2,50.0,71,Male,81.6,173.9,Lightly Active,2135,Appetizer,Dip,3.09,7,26,6
+75,130,62,71.0,58.0,13.0,Medium,4.0,2,67.0,58,Male,91.8,174.1,Very Active,2969,Appetizer,Dip,3.09,7,26,6
+5,154,134,129.0,127.5,1.5,None,3.5,2,128.0,69,Male,81.3,173.2,Moderately Active,2411,Dessert,Cake,3.57,22,68,13
+32,154,134,114.0,90.5,23.5,Medium,2.5,2,100.0,20,Female,73.7,175.2,Moderately Active,2436,Dessert,Cake,3.57,22,68,13
+43,154,134,96.0,86.0,10.0,Small,3.5,2,90.0,39,Female,62.6,170.3,Moderately Active,2068,Dessert,Cake,3.57,22,68,13
+52,154,134,165.5,147.0,18.5,Small,3.5,2,155.0,40,Male,94.4,168.6,Lightly Active,2479,Dessert,Cake,3.57,22,68,13
+89,154,134,134.0,100.0,34.0,Medium,3.0,2,110.0,41,Male,89.4,166.8,Very Active,2996,Dessert,Cake,3.57,22,68,13
+5,172,206,211.0,165.0,46.0,Medium,3.0,2,182.0,69,Male,81.3,173.2,Moderately Active,2411,Appetizer,Salad,1.9,17,44,16
+68,172,206,239.5,213.0,26.5,Small,3.5,2,225.0,67,Male,82.5,173.6,Extremely Active,3002,Appetizer,Salad,1.9,17,44,16
+97,172,206,174.5,155.5,19.0,Medium,3.0,2,171.0,40,Female,71.2,162.3,Sedentary,1639,Appetizer,Salad,1.9,17,44,16
+6,27,256,319.0,241.5,77.5,Medium,2.5,2,266.0,56,Male,93.4,162.8,Lightly Active,2306,Appetizer,Salad,0.6,6,17,7
+6,108,127,146.0,123.5,22.5,Medium,3.5,2,134.0,56,Male,93.4,162.8,Lightly Active,2306,Side Dish,Grains,1.79,9,36,6
+41,108,127,103.0,90.0,13.0,Medium,2.5,2,99.0,21,Male,66.4,171.7,Very Active,2825,Side Dish,Grains,1.79,9,36,6
+44,108,127,107.5,94.5,13.0,None,2.5,2,129.0,50,Male,112.6,175.1,Extremely Active,3755,Side Dish,Grains,1.79,9,36,6
+46,108,127,107.5,88.0,19.5,Medium,4.5,2,101.0,46,Female,64.3,167.8,Moderately Active,2016,Side Dish,Grains,1.79,9,36,6
+90,108,127,120.0,113.0,7.0,None,3.5,2,116.0,67,Male,63.9,171.4,Very Active,2382,Side Dish,Grains,1.79,9,36,6
+6,166,374,364.0,364.0,0.0,None,2.0,2,437.0,56,Male,93.4,162.8,Lightly Active,2306,Beverage,Soda,0.38,8,14,6
+12,166,374,363.5,333.0,30.5,Medium,3.0,2,366.0,62,Male,75.4,179.3,Sedentary,1883,Beverage,Soda,0.38,8,14,6
+7,110,244,301.0,301.0,0.0,None,3.0,2,361.0,45,Male,78.1,169.8,Extremely Active,3082,Appetizer,Finger Food,2.83,41,73,26
+15,110,244,160.0,151.0,9.0,None,4.0,2,160.0,45,Female,74.8,167.0,Lightly Active,1932,Appetizer,Finger Food,2.83,41,73,26
+7,146,177,203.5,119.5,84.0,Medium,3.5,2,157.0,45,Male,78.1,169.8,Extremely Active,3082,Dessert,Ice Cream,2.4,6,67,15
+26,146,177,116.0,87.5,28.5,Medium,2.5,2,96.0,61,Male,73.8,172.3,Sedentary,1819,Dessert,Ice Cream,2.4,6,67,15
+40,146,177,202.0,200.5,1.5,None,3.5,2,201.0,35,Male,70.4,156.8,Extremely Active,2876,Dessert,Ice Cream,2.4,6,67,15
+7,148,168,152.0,145.0,7.0,Small,2.5,2,148.0,45,Male,78.1,169.8,Extremely Active,3082,Dessert,Pastry,4.3,23,109,21
+69,148,168,102.5,102.5,0.0,None,3.0,2,123.0,51,Female,47.8,164.8,Lightly Active,1502,Dessert,Pastry,4.3,23,109,21
+7,158,265,311.0,280.25,30.75,None,3.25,4,294.0,45,Male,78.1,169.8,Extremely Active,3082,Main Course,Meat,2.9,80,36,34
+19,158,265,196.5,196.5,0.0,None,2.5,2,236.0,30,Male,78.6,178.1,Sedentary,2105,Main Course,Meat,2.9,80,36,34
+40,158,265,375.0,356.5,18.5,Small,3.0,2,365.0,35,Male,70.4,156.8,Extremely Active,2876,Main Course,Meat,2.9,80,36,34
+48,158,265,204.5,170.0,34.5,Medium,3.0,2,187.0,48,Female,78.9,158.1,Moderately Active,2133,Main Course,Meat,2.9,80,36,34
+66,158,265,284.6666666666667,272.3333333333333,12.333333333333334,None,4.0,3,285.0,67,Female,67.0,158.8,Extremely Active,2217,Main Course,Meat,2.9,80,36,34
+76,158,265,266.0,159.5,106.5,Medium,3.5,2,207.0,64,Female,86.4,171.7,Extremely Active,2768,Main Course,Meat,2.9,80,36,34
+78,158,265,226.0,163.0,63.0,Medium,3.5,2,191.0,46,Female,61.8,160.0,Very Active,2117,Main Course,Meat,2.9,80,36,34
+7,160,246,231.33333333333334,210.0,21.333333333333332,Small,3.0,3,220.0,45,Male,78.1,169.8,Extremely Active,3082,Appetizer,Salad,1.26,8,35,15
+33,160,246,276.5,252.0,24.5,Small,4.5,2,276.0,36,Female,62.3,160.7,Sedentary,1543,Appetizer,Salad,1.26,8,35,15
+65,160,246,188.66666666666666,142.66666666666666,46.0,Small,4.0,3,189.0,19,Female,61.1,165.4,Moderately Active,2153,Appetizer,Salad,1.26,8,35,15
+73,160,246,144.5,118.5,26.0,Medium,4.0,2,136.0,40,Female,67.6,162.6,Sedentary,1597,Appetizer,Salad,1.26,8,35,15
+89,160,246,300.0,198.5,101.5,Large,2.5,2,218.0,41,Male,89.4,166.8,Very Active,2996,Appetizer,Salad,1.26,8,35,15
+7,170,373,514.5,433.0,81.5,Small,4.5,2,514.0,45,Male,78.1,169.8,Extremely Active,3082,Beverage,Tea,0.12,2,5,2
+52,170,373,320.6666666666667,223.0,97.66666666666667,Medium,3.3333333333333335,3,267.0,40,Male,94.4,168.6,Lightly Active,2479,Beverage,Tea,0.12,2,5,2
+53,170,373,389.0,389.0,0.0,None,3.0,2,467.0,39,Female,46.2,167.1,Extremely Active,2186,Beverage,Tea,0.12,2,5,2
+61,170,373,449.0,416.0,33.0,None,3.5,2,431.0,47,Male,89.3,180.1,Very Active,3085,Beverage,Tea,0.12,2,5,2
+8,80,88,71.5,71.5,0.0,None,3.0,2,86.0,31,Male,75.1,168.6,Very Active,2855,Dessert,Pastry,3.44,11,48,7
+33,80,88,44.0,33.0,11.0,Medium,3.0,2,36.0,36,Female,62.3,160.7,Sedentary,1543,Dessert,Pastry,3.44,11,48,7
+70,80,88,117.5,111.0,6.5,Small,3.0,2,114.0,28,Male,87.0,179.5,Extremely Active,3528,Dessert,Pastry,3.44,11,48,7
+9,32,224,247.0,233.5,13.5,None,4.0,2,247.0,71,Male,82.4,167.7,Lightly Active,2092,Dessert,Fruit,0.98,7,26,10
+39,32,224,124.0,94.0,30.0,Large,3.5,2,108.0,52,Female,63.4,168.4,Sedentary,1518,Dessert,Fruit,0.98,7,26,10
+66,32,224,257.0,209.5,47.5,Medium,3.0,2,230.0,67,Female,67.0,158.8,Extremely Active,2217,Dessert,Fruit,0.98,7,26,10
+9,78,241,191.0,171.0,20.0,Medium,4.0,2,197.0,71,Male,82.4,167.7,Lightly Active,2092,Appetizer,Salad,1.09,10,30,12
+46,78,241,227.0,157.0,70.0,Medium,2.6666666666666665,3,173.0,46,Female,64.3,167.8,Moderately Active,2016,Appetizer,Salad,1.09,10,30,12
+78,78,241,213.0,158.0,55.0,Medium,3.0,2,174.0,46,Female,61.8,160.0,Very Active,2117,Appetizer,Salad,1.09,10,30,12
+9,87,408,458.5,359.0,99.5,Medium,3.0,2,395.0,71,Male,82.4,167.7,Lightly Active,2092,Main Course,Pasta,1.67,33,111,11
+27,87,408,391.5,340.5,51.0,Medium,3.5,2,363.0,66,Male,70.1,171.1,Lightly Active,1988,Main Course,Pasta,1.67,33,111,11
+29,87,408,421.5,344.5,77.0,Medium,2.0,2,379.0,19,Female,79.8,150.0,Very Active,2552,Main Course,Pasta,1.67,33,111,11
+34,87,408,481.3333333333333,313.6666666666667,167.66666666666666,Large,3.3333333333333335,3,389.0,56,Male,76.1,171.5,Lightly Active,2143,Main Course,Pasta,1.67,33,111,11
+47,87,408,499.5,358.5,141.0,Medium,4.0,2,412.0,38,Male,70.2,172.7,Moderately Active,2475,Main Course,Pasta,1.67,33,111,11
+48,87,408,439.0,274.0,165.0,Medium,2.0,2,301.0,48,Female,78.9,158.1,Moderately Active,2133,Main Course,Pasta,1.67,33,111,11
+84,87,408,362.0,281.0,81.0,Medium,3.0,2,309.0,74,Female,56.6,156.3,Sedentary,1214,Main Course,Pasta,1.67,33,111,11
+85,87,408,513.0,426.5,86.5,Medium,3.0,2,469.0,61,Male,84.7,177.3,Extremely Active,3144,Main Course,Pasta,1.67,33,111,11
+91,87,408,381.0,238.0,143.0,Medium,4.0,2,274.0,26,Male,73.1,183.7,Very Active,3025,Main Course,Pasta,1.67,33,111,11
+9,179,110,87.0,71.0,16.0,Medium,3.0,3,78.0,71,Male,82.4,167.7,Lightly Active,2092,Appetizer,Finger Food,3.92,21,45,18
+29,179,110,103.0,90.0,13.0,Medium,3.0,2,99.0,19,Female,79.8,150.0,Very Active,2552,Appetizer,Finger Food,3.92,21,45,18
+48,179,110,76.0,63.5,12.5,Medium,4.0,2,73.0,48,Female,78.9,158.1,Moderately Active,2133,Appetizer,Finger Food,3.92,21,45,18
+61,179,110,149.5,134.5,15.0,Medium,3.0,2,148.0,47,Male,89.3,180.1,Very Active,3085,Appetizer,Finger Food,3.92,21,45,18
+9,189,311,268.0,235.5,32.5,Small,3.0,2,250.0,71,Male,82.4,167.7,Lightly Active,2092,Main Course,Rice Dish,2.23,21,108,20
+23,189,311,182.0,150.0,32.0,Medium,2.5,2,165.0,28,Female,61.4,160.4,Sedentary,1578,Main Course,Rice Dish,2.23,21,108,20
+50,189,311,403.0,270.0,133.0,Large,2.0,2,297.0,67,Male,120.0,180.6,Extremely Active,3798,Main Course,Rice Dish,2.23,21,108,20
+10,73,218,235.5,194.0,41.5,Medium,4.0,2,223.0,27,Male,90.6,178.5,Very Active,3263,Dessert,Fruit,0.54,6,14,4
+15,73,218,223.0,198.5,24.5,Medium,3.5,2,210.0,45,Female,74.8,167.0,Lightly Active,1932,Dessert,Fruit,0.54,6,14,4
+54,73,218,239.0,180.0,59.0,Medium,2.5,2,198.0,61,Female,70.2,164.7,Extremely Active,2404,Dessert,Fruit,0.54,6,14,4
+90,73,218,230.0,184.0,46.0,Small,3.3333333333333335,3,205.0,67,Male,63.9,171.4,Very Active,2382,Dessert,Fruit,0.54,6,14,4
+10,113,164,201.5,151.5,50.0,Medium,2.5,2,167.0,27,Male,90.6,178.5,Very Active,3263,Dessert,Pastry,3.47,9,93,18
+18,113,164,114.5,95.0,19.5,Medium,2.0,2,105.0,72,Female,80.6,164.8,Sedentary,1578,Dessert,Pastry,3.47,9,93,18
+51,113,164,108.0,80.5,27.5,Medium,4.0,2,93.0,63,Female,66.8,166.4,Very Active,2124,Dessert,Pastry,3.47,9,93,18
+79,113,164,207.5,121.5,86.0,Large,3.0,2,134.0,61,Female,65.6,165.3,Extremely Active,2324,Dessert,Pastry,3.47,9,93,18
+10,153,161,203.0,203.0,0.0,None,4.5,2,203.0,27,Male,90.6,178.5,Very Active,3263,Dessert,Ice Cream,2.76,28,59,10
+77,153,161,150.0,140.0,10.0,None,3.5,2,144.0,33,Female,64.9,160.8,Lightly Active,1826,Dessert,Ice Cream,2.76,28,59,10
+97,153,161,89.0,73.0,16.0,Medium,3.0,2,80.0,40,Female,71.2,162.3,Sedentary,1639,Dessert,Ice Cream,2.76,28,59,10
+10,185,125,107.0,98.5,8.5,None,2.0,2,128.0,27,Male,90.6,178.5,Very Active,3263,Side Dish,Vegetables,0.46,3,8,2
+36,185,125,134.0,112.5,21.5,Small,3.0,2,122.0,65,Male,86.0,177.4,Moderately Active,2556,Side Dish,Vegetables,0.46,3,8,2
+49,185,125,117.0,97.5,19.5,Medium,3.0,2,107.0,34,Female,82.8,167.7,Lightly Active,2124,Side Dish,Vegetables,0.46,3,8,2
+62,185,125,149.5,114.0,35.5,Medium,3.0,2,125.0,38,Female,63.9,157.2,Extremely Active,2415,Side Dish,Vegetables,0.46,3,8,2
+66,185,125,125.0,121.0,4.0,None,4.0,2,125.0,67,Female,67.0,158.8,Extremely Active,2217,Side Dish,Vegetables,0.46,3,8,2
+11,36,272,182.5,178.0,4.5,None,3.5,2,180.0,38,Non-binary,61.4,158.2,Extremely Active,2377,Appetizer,Salad,1.07,9,40,11
+28,36,272,375.0,264.6666666666667,110.33333333333333,Medium,2.6666666666666665,3,291.0,66,Male,84.1,176.5,Extremely Active,3078,Appetizer,Salad,1.07,9,40,11
+92,36,272,162.0,151.5,10.5,None,3.0,2,194.0,35,Female,47.7,175.1,Sedentary,1482,Appetizer,Salad,1.07,9,40,11
+11,52,244,224.5,204.0,20.5,Medium,2.5,2,224.0,38,Non-binary,61.4,158.2,Extremely Active,2377,Appetizer,Soup,1.15,13,38,8
+16,52,244,292.0,213.0,79.0,Medium,3.5,2,249.0,40,Male,94.8,185.5,Very Active,3299,Appetizer,Soup,1.15,13,38,8
+17,52,244,309.5,275.5,34.0,Medium,3.0,2,303.0,52,Male,79.1,169.7,Moderately Active,2475,Appetizer,Soup,1.15,13,38,8
+43,52,244,228.5,177.0,51.5,Medium,3.5,2,200.0,39,Female,62.6,170.3,Moderately Active,2068,Appetizer,Soup,1.15,13,38,8
+84,52,244,200.0,194.0,6.0,None,3.5,2,197.0,74,Female,56.6,156.3,Sedentary,1214,Appetizer,Soup,1.15,13,38,8
+11,133,433,466.5,409.0,57.5,Medium,4.5,2,470.0,38,Non-binary,61.4,158.2,Extremely Active,2377,Main Course,Burger,3.31,115,125,53
+20,133,433,397.0,208.0,189.0,Large,1.5,2,229.0,21,Female,68.6,163.7,Extremely Active,2741,Main Course,Burger,3.31,115,125,53
+69,133,433,404.3333333333333,338.3333333333333,66.0,Small,3.3333333333333335,3,368.0,51,Female,47.8,164.8,Lightly Active,1502,Main Course,Burger,3.31,115,125,53
+86,133,433,411.5,396.0,15.5,None,3.5,2,403.0,54,Female,54.3,170.1,Sedentary,1410,Main Course,Burger,3.31,115,125,53
+90,133,433,405.0,372.5,32.5,None,3.0,2,486.0,67,Male,63.9,171.4,Very Active,2382,Main Course,Burger,3.31,115,125,53
+11,141,297,353.0,281.6666666666667,71.33333333333333,Small,2.6666666666666665,3,314.0,38,Non-binary,61.4,158.2,Extremely Active,2377,Main Course,Burger,3.28,86,44,50
+13,141,297,217.0,152.5,64.5,Medium,4.0,2,175.0,41,Non-binary,60.5,157.5,Moderately Active,1895,Main Course,Burger,3.28,86,44,50
+44,141,297,435.0,383.0,52.0,Medium,2.5,2,421.0,50,Male,112.6,175.1,Extremely Active,3755,Main Course,Burger,3.28,86,44,50
+55,141,297,365.5,232.0,133.5,Large,2.5,2,255.0,52,Male,89.9,186.5,Extremely Active,3440,Main Course,Burger,3.28,86,44,50
+11,168,315,300.0,222.5,77.5,Large,1.5,2,245.0,38,Non-binary,61.4,158.2,Extremely Active,2377,Main Course,Burger,3.33,112,61,40
+14,168,315,158.0,127.5,30.5,Medium,3.5,2,141.0,52,Female,78.0,167.9,Lightly Active,1937,Main Course,Burger,3.33,112,61,40
+47,168,315,316.0,276.0,40.0,Medium,4.0,2,317.0,38,Male,70.2,172.7,Moderately Active,2475,Main Course,Burger,3.33,112,61,40
+65,168,315,245.0,164.5,80.5,Medium,5.0,2,189.0,19,Female,61.1,165.4,Moderately Active,2153,Main Course,Burger,3.33,112,61,40
+89,168,315,316.0,272.5,43.5,Medium,3.0,2,300.0,41,Male,89.4,166.8,Very Active,2996,Main Course,Burger,3.33,112,61,40
+11,181,134,117.5,75.5,42.0,Medium,3.5,2,94.0,38,Non-binary,61.4,158.2,Extremely Active,2377,Dessert,Ice Cream,3.39,21,62,14
+62,181,134,130.0,100.0,30.0,Medium,3.0,2,110.0,38,Female,63.9,157.2,Extremely Active,2415,Dessert,Ice Cream,3.39,21,62,14
+68,181,134,147.0,104.5,42.5,Medium,3.0,2,115.0,67,Male,82.5,173.6,Extremely Active,3002,Dessert,Ice Cream,3.39,21,62,14
+12,67,58,37.5,28.5,9.0,Medium,4.5,2,33.0,62,Male,75.4,179.3,Sedentary,1883,Appetizer,Dip,3.39,9,23,8
+19,67,58,52.0,48.5,3.5,Medium,2.5,2,53.0,30,Male,78.6,178.1,Sedentary,2105,Appetizer,Dip,3.39,9,23,8
+25,67,58,90.0,90.0,0.0,None,3.5,2,90.0,23,Male,84.1,158.4,Extremely Active,3271,Appetizer,Dip,3.39,9,23,8
+13,7,310,256.5,216.5,40.0,Medium,3.5,2,234.0,41,Non-binary,60.5,157.5,Moderately Active,1895,Main Course,Vegetarian,1.53,22,51,20
+13,167,227,206.5,206.5,0.0,None,2.5,2,248.0,41,Non-binary,60.5,157.5,Moderately Active,1895,Beverage,Juice,0.57,7,14,5
+80,167,227,301.5,280.0,21.5,None,3.5,2,290.0,67,Male,80.9,165.9,Extremely Active,2881,Beverage,Juice,0.57,7,14,5
+92,167,227,117.0,106.5,10.5,None,3.5,2,111.0,35,Female,47.7,175.1,Sedentary,1482,Beverage,Juice,0.57,7,14,5
+14,13,86,66.5,46.0,20.5,Large,3.5,2,55.0,52,Female,78.0,167.9,Lightly Active,1937,Appetizer,Bread,3.15,11,40,7
+16,13,86,99.0,51.5,47.5,Large,3.0,2,57.0,40,Male,94.8,185.5,Very Active,3299,Appetizer,Bread,3.15,11,40,7
+30,13,86,78.0,76.0,2.0,None,3.0,2,94.0,34,Female,78.8,160.2,Very Active,2516,Appetizer,Bread,3.15,11,40,7
+72,13,86,121.0,105.0,16.0,Small,3.5,2,112.0,35,Male,61.7,180.4,Extremely Active,2992,Appetizer,Bread,3.15,11,40,7
+14,63,249,159.5,159.5,0.0,None,4.0,2,160.0,52,Female,78.0,167.9,Lightly Active,1937,Side Dish,Beans,1.69,25,50,13
+30,63,249,253.0,178.5,74.5,Medium,3.5,2,212.0,34,Female,78.8,160.2,Very Active,2516,Side Dish,Beans,1.69,25,50,13
+65,63,249,180.0,143.0,37.0,Medium,4.0,2,164.0,19,Female,61.1,165.4,Moderately Active,2153,Side Dish,Beans,1.69,25,50,13
+80,63,249,232.66666666666666,186.0,46.666666666666664,Medium,3.0,3,205.0,67,Male,80.9,165.9,Extremely Active,2881,Side Dish,Beans,1.69,25,50,13
+100,63,249,235.5,116.5,119.0,Large,2.5,2,128.0,22,Female,90.4,161.6,Extremely Active,3122,Side Dish,Beans,1.69,25,50,13
+14,120,140,99.5,67.0,32.5,Medium,3.5,2,82.0,52,Female,78.0,167.9,Lightly Active,1937,Dessert,Fruit,0.53,4,9,2
+54,120,140,141.5,121.0,20.5,Small,3.5,2,130.0,61,Female,70.2,164.7,Extremely Active,2404,Dessert,Fruit,0.53,4,9,2
+56,120,140,116.0,116.0,0.0,None,4.0,2,116.0,47,Female,60.1,164.4,Moderately Active,1911,Dessert,Fruit,0.53,4,9,2
+66,120,140,139.5,137.0,2.5,None,2.5,2,167.0,67,Female,67.0,158.8,Extremely Active,2217,Dessert,Fruit,0.53,4,9,2
+14,161,231,155.5,145.5,10.0,Small,3.5,2,150.0,52,Female,78.0,167.9,Lightly Active,1937,Dessert,Fruit,0.64,4,21,5
+60,161,231,289.5,214.0,75.5,Large,2.0,2,235.0,54,Male,70.2,174.6,Very Active,2637,Dessert,Fruit,0.64,4,21,5
+14,182,291,172.0,110.0,62.0,Medium,3.0,2,121.0,52,Female,78.0,167.9,Lightly Active,1937,Side Dish,Potatoes,1.09,13,44,10
+38,182,291,338.0,290.5,47.5,Small,3.0,2,312.0,50,Male,82.8,172.2,Very Active,2862,Side Dish,Potatoes,1.09,13,44,10
+59,182,291,319.0,307.5,11.5,None,4.0,2,319.0,18,Female,75.3,177.7,Moderately Active,2500,Side Dish,Potatoes,1.09,13,44,10
+62,182,291,220.0,145.5,74.5,Medium,3.5,2,179.0,38,Female,63.9,157.2,Extremely Active,2415,Side Dish,Potatoes,1.09,13,44,10
+67,182,291,151.0,151.0,0.0,None,3.5,2,151.0,29,Female,63.9,167.6,Lightly Active,1899,Side Dish,Potatoes,1.09,13,44,10
+85,182,291,395.5,246.0,149.5,Medium,3.0,2,271.0,61,Male,84.7,177.3,Extremely Active,3144,Side Dish,Potatoes,1.09,13,44,10
+15,8,218,184.0,175.5,8.5,Small,3.5,2,179.0,45,Female,74.8,167.0,Lightly Active,1932,Appetizer,Soup,0.98,12,24,8
+41,8,218,299.5,224.5,75.0,Medium,3.0,2,247.0,21,Male,66.4,171.7,Very Active,2825,Appetizer,Soup,0.98,12,24,8
+76,8,218,232.0,171.5,60.5,Medium,3.0,2,189.0,64,Female,86.4,171.7,Extremely Active,2768,Appetizer,Soup,0.98,12,24,8
+90,8,218,241.0,234.66666666666666,6.333333333333333,None,3.3333333333333335,3,238.0,67,Male,63.9,171.4,Very Active,2382,Appetizer,Soup,0.98,12,24,8
+15,29,256,128.0,126.5,1.5,None,3.0,2,154.0,45,Female,74.8,167.0,Lightly Active,1932,Side Dish,Beans,1.78,19,63,14
+28,29,256,214.5,208.5,6.0,None,3.5,2,211.0,66,Male,84.1,176.5,Extremely Active,3078,Side Dish,Beans,1.78,19,63,14
+42,29,256,175.33333333333334,149.33333333333334,26.0,Medium,3.6666666666666665,3,161.0,24,Female,76.0,159.2,Very Active,2544,Side Dish,Beans,1.78,19,63,14
+65,29,256,149.5,124.0,25.5,Medium,3.5,2,135.0,19,Female,61.1,165.4,Moderately Active,2153,Side Dish,Beans,1.78,19,63,14
+73,29,256,129.0,116.5,12.5,Small,4.0,2,129.0,40,Female,67.6,162.6,Sedentary,1597,Side Dish,Beans,1.78,19,63,14
+15,89,430,377.5,325.0,52.5,Small,4.0,2,378.0,45,Female,74.8,167.0,Lightly Active,1932,Main Course,Pizza,3.09,63,183,38
+24,89,430,243.5,237.5,6.0,None,3.0,2,292.0,18,Female,50.4,162.6,Very Active,2189,Main Course,Pizza,3.09,63,183,38
+33,89,430,297.6666666666667,251.0,46.666666666666664,Medium,2.6666666666666665,3,276.0,36,Female,62.3,160.7,Sedentary,1543,Main Course,Pizza,3.09,63,183,38
+58,89,430,247.0,241.5,5.5,None,3.5,2,244.0,64,Female,48.9,166.9,Sedentary,1261,Main Course,Pizza,3.09,63,183,38
+63,89,430,345.0,344.0,1.0,None,3.5,2,344.0,71,Male,81.6,173.9,Lightly Active,2135,Main Course,Pizza,3.09,63,183,38
+86,89,430,379.5,235.5,144.0,Large,3.5,2,300.0,54,Female,54.3,170.1,Sedentary,1410,Main Course,Pizza,3.09,63,183,38
+93,89,430,324.0,309.0,15.0,None,5.0,2,324.0,47,Male,76.6,176.5,Sedentary,1967,Main Course,Pizza,3.09,63,183,38
+15,114,177,110.0,74.0,36.0,Medium,2.5,2,81.0,45,Female,74.8,167.0,Lightly Active,1932,Main Course,Fish,2.31,41,26,16
+32,114,177,173.5,146.0,27.5,Medium,2.5,2,161.0,20,Female,73.7,175.2,Moderately Active,2436,Main Course,Fish,2.31,41,26,16
+67,114,177,129.5,99.5,30.0,Medium,3.0,2,109.0,29,Female,63.9,167.6,Lightly Active,1899,Main Course,Fish,2.31,41,26,16
+89,114,177,117.0,82.5,34.5,Medium,3.0,2,91.0,41,Male,89.4,166.8,Very Active,2996,Main Course,Fish,2.31,41,26,16
+93,114,177,186.5,186.5,0.0,None,3.0,2,224.0,47,Male,76.6,176.5,Sedentary,1967,Main Course,Fish,2.31,41,26,16
+15,199,100,60.0,51.5,8.5,Medium,3.0,2,57.0,45,Female,74.8,167.0,Lightly Active,1932,Dessert,Pastry,4.13,7,72,11
+75,199,100,131.0,104.5,26.5,Medium,3.0,2,115.0,58,Male,91.8,174.1,Very Active,2969,Dessert,Pastry,4.13,7,72,11
+17,112,142,146.5,135.5,11.0,Small,3.5,2,140.0,52,Male,79.1,169.7,Moderately Active,2475,Dessert,Ice Cream,2.42,0,53,15
+31,112,142,139.5,81.5,58.0,Large,2.0,2,90.0,28,Female,70.4,168.1,Sedentary,1745,Dessert,Ice Cream,2.42,0,53,15
+37,112,142,203.0,169.0,34.0,Medium,2.0,2,186.0,52,Male,85.7,182.7,Very Active,3008,Dessert,Ice Cream,2.42,0,53,15
+66,112,142,93.0,79.0,14.0,Medium,3.5,2,85.0,67,Female,67.0,158.8,Extremely Active,2217,Dessert,Ice Cream,2.42,0,53,15
+17,135,101,147.0,119.0,28.0,Medium,4.0,2,137.0,52,Male,79.1,169.7,Moderately Active,2475,Side Dish,Vegetables,1.08,3,16,4
+18,50,287,147.5,96.0,51.5,Medium,3.0,2,106.0,72,Female,80.6,164.8,Sedentary,1578,Beverage,Juice,0.52,9,15,6
+43,50,287,210.0,134.0,76.0,Medium,2.6666666666666665,3,147.0,39,Female,62.6,170.3,Moderately Active,2068,Beverage,Juice,0.52,9,15,6
+76,50,287,247.0,156.0,91.0,Medium,3.5,2,197.0,64,Female,86.4,171.7,Extremely Active,2768,Beverage,Juice,0.52,9,15,6
+86,50,287,237.0,188.0,49.0,Medium,3.0,2,207.0,54,Female,54.3,170.1,Sedentary,1410,Beverage,Juice,0.52,9,15,6
+18,54,291,192.0,173.5,18.5,Medium,3.5,2,182.0,72,Female,80.6,164.8,Sedentary,1578,Main Course,Pasta,1.51,21,58,14
+91,54,291,429.0,375.5,53.5,Medium,2.0,2,413.0,26,Male,73.1,183.7,Very Active,3025,Main Course,Pasta,1.51,21,58,14
+19,68,163,182.0,139.5,42.5,Medium,3.0,2,153.0,30,Male,78.6,178.1,Sedentary,2105,Dessert,Cake,4.33,23,110,19
+40,68,163,245.5,174.0,71.5,Medium,4.5,2,200.0,35,Male,70.4,156.8,Extremely Active,2876,Dessert,Cake,4.33,23,110,19
+19,71,117,68.5,49.5,19.0,Medium,2.0,2,54.0,30,Male,78.6,178.1,Sedentary,2105,Appetizer,Finger Food,2.71,14,42,10
+19,171,457,482.0,433.5,48.5,Small,3.5,2,455.0,30,Male,78.6,178.1,Sedentary,2105,Beverage,Soda,0.48,13,21,9
+37,171,457,449.0,412.5,36.5,None,3.0,2,539.0,52,Male,85.7,182.7,Very Active,3008,Beverage,Soda,0.48,13,21,9
+77,171,457,437.0,367.0,70.0,Medium,4.0,2,422.0,33,Female,64.9,160.8,Lightly Active,1826,Beverage,Soda,0.48,13,21,9
+88,171,457,290.0,175.5,114.5,Medium,2.5,2,193.0,33,Female,67.1,167.2,Lightly Active,1911,Beverage,Soda,0.48,13,21,9
+99,171,457,366.0,271.5,94.5,Large,2.5,2,299.0,51,Male,78.9,185.9,Lightly Active,2339,Beverage,Soda,0.48,13,21,9
+20,38,267,333.5,322.0,11.5,None,4.0,2,334.0,21,Female,68.6,163.7,Extremely Active,2741,Main Course,Meat,1.55,50,17,16
+31,38,267,200.0,138.5,61.5,Medium,3.0,2,152.0,28,Female,70.4,168.1,Sedentary,1745,Main Course,Meat,1.55,50,17,16
+50,38,267,337.5,217.5,120.0,Medium,3.0,2,239.0,67,Male,120.0,180.6,Extremely Active,3798,Main Course,Meat,1.55,50,17,16
+67,38,267,176.0,144.0,32.0,Medium,2.0,2,158.0,29,Female,63.9,167.6,Lightly Active,1899,Main Course,Meat,1.55,50,17,16
+91,38,267,398.0,313.5,84.5,Medium,3.5,2,352.0,26,Male,73.1,183.7,Very Active,3025,Main Course,Meat,1.55,50,17,16
+92,38,267,148.5,118.0,30.5,Medium,3.5,2,132.0,35,Female,47.7,175.1,Sedentary,1482,Main Course,Meat,1.55,50,17,16
+20,152,261,282.0,217.0,65.0,Medium,4.5,2,250.0,21,Female,68.6,163.7,Extremely Active,2741,Side Dish,Beans,1.77,20,55,18
+45,152,261,212.5,119.0,93.5,Large,3.0,2,131.0,66,Female,62.6,154.3,Moderately Active,1704,Side Dish,Beans,1.77,20,55,18
+21,33,320,181.5,138.5,43.0,Medium,4.0,2,159.0,24,Female,60.0,160.1,Lightly Active,1815,Main Course,Pizza,2.76,49,97,33
+75,33,320,421.5,329.5,92.0,Medium,3.5,2,371.0,58,Male,91.8,174.1,Very Active,2969,Main Course,Pizza,2.76,49,97,33
+21,41,262,282.5,230.0,52.5,Medium,4.0,2,264.0,24,Female,60.0,160.1,Lightly Active,1815,Beverage,Coffee,0.4,5,11,4
+38,41,262,289.5,249.0,40.5,Medium,3.0,2,274.0,50,Male,82.8,172.2,Very Active,2862,Beverage,Coffee,0.4,5,11,4
+21,66,299,227.0,205.5,21.5,Medium,2.0,2,226.0,24,Female,60.0,160.1,Lightly Active,1815,Main Course,Meat,1.58,46,24,21
+32,66,299,239.0,158.0,81.0,Large,3.0,2,174.0,20,Female,73.7,175.2,Moderately Active,2436,Main Course,Meat,1.58,46,24,21
+21,72,382,211.5,175.0,36.5,Medium,4.5,2,201.0,24,Female,60.0,160.1,Lightly Active,1815,Beverage,Coffee,0.05,1,3,1
+73,72,382,191.0,162.0,29.0,Medium,3.5,2,175.0,40,Female,67.6,162.6,Sedentary,1597,Beverage,Coffee,0.05,1,3,1
+90,72,382,359.0,316.0,43.0,Small,4.0,2,359.0,67,Male,63.9,171.4,Very Active,2382,Beverage,Coffee,0.05,1,3,1
+21,101,150,90.0,88.5,1.5,None,4.0,2,90.0,24,Female,60.0,160.1,Lightly Active,1815,Dessert,Cake,3.93,7,94,20
+21,111,230,166.5,121.5,45.0,Medium,1.5,2,134.0,24,Female,60.0,160.1,Lightly Active,1815,Dessert,Fruit,0.79,8,22,7
+23,111,230,160.33333333333334,157.0,3.3333333333333335,None,3.3333333333333335,3,158.0,28,Female,61.4,160.4,Sedentary,1578,Dessert,Fruit,0.79,8,22,7
+55,111,230,244.5,197.0,47.5,Medium,3.0,2,217.0,52,Male,89.9,186.5,Extremely Active,3440,Dessert,Fruit,0.79,8,22,7
+21,115,136,110.0,110.0,0.0,None,4.0,2,110.0,24,Female,60.0,160.1,Lightly Active,1815,Dessert,Pudding,2.39,15,43,10
+52,115,136,144.0,144.0,0.0,None,3.0,2,173.0,40,Male,94.4,168.6,Lightly Active,2479,Dessert,Pudding,2.39,15,43,10
+21,129,83,68.5,35.5,33.0,Large,2.0,2,39.0,24,Female,60.0,160.1,Lightly Active,1815,Appetizer,Dip,3.34,16,28,11
+26,129,83,79.5,62.0,17.5,Medium,3.5,2,70.0,61,Male,73.8,172.3,Sedentary,1819,Appetizer,Dip,3.34,16,28,11
+21,149,249,255.5,220.5,35.0,Medium,2.5,2,243.0,24,Female,60.0,160.1,Lightly Active,1815,Side Dish,Potatoes,1.47,20,42,13
+24,149,249,258.5,229.0,29.5,None,4.5,2,258.0,18,Female,50.4,162.6,Very Active,2189,Side Dish,Potatoes,1.47,20,42,13
+39,149,249,125.0,104.5,20.5,Medium,3.0,2,115.0,52,Female,63.4,168.4,Sedentary,1518,Side Dish,Potatoes,1.47,20,42,13
+44,149,249,290.0,255.5,34.5,Small,4.5,2,290.0,50,Male,112.6,175.1,Extremely Active,3755,Side Dish,Potatoes,1.47,20,42,13
+79,149,249,250.0,192.0,58.0,Medium,4.0,2,221.0,61,Female,65.6,165.3,Extremely Active,2324,Side Dish,Potatoes,1.47,20,42,13
+22,1,177,123.5,123.5,0.0,None,3.0,2,148.0,74,Female,55.4,164.4,Very Active,1813,Main Course,Meat,1.52,25,14,12
+71,1,177,89.66666666666667,80.66666666666667,9.0,Medium,2.6666666666666665,3,89.0,54,Female,71.1,169.5,Sedentary,1607,Main Course,Meat,1.52,25,14,12
+22,15,216,217.5,213.5,4.0,None,4.0,2,218.0,74,Female,55.4,164.4,Very Active,1813,Main Course,Meat,2.9,47,55,24
+60,15,216,304.5,222.0,82.5,Medium,2.5,2,244.0,54,Male,70.2,174.6,Very Active,2637,Main Course,Meat,2.9,47,55,24
+22,16,161,227.0,210.5,16.5,None,3.5,2,218.0,74,Female,55.4,164.4,Very Active,1813,Dessert,Pastry,3.11,15,84,12
+28,16,161,183.5,132.0,51.5,Medium,3.5,2,155.0,66,Male,84.1,176.5,Extremely Active,3078,Dessert,Pastry,3.11,15,84,12
+51,16,161,150.0,147.5,2.5,None,4.5,2,150.0,63,Female,66.8,166.4,Very Active,2124,Dessert,Pastry,3.11,15,84,12
+52,16,161,134.5,106.0,28.5,Medium,3.5,2,119.0,40,Male,94.4,168.6,Lightly Active,2479,Dessert,Pastry,3.11,15,84,12
+76,16,161,180.0,135.0,45.0,Medium,2.5,2,148.0,64,Female,86.4,171.7,Extremely Active,2768,Dessert,Pastry,3.11,15,84,12
+80,16,161,210.0,201.66666666666666,8.333333333333334,Small,3.3333333333333335,3,205.0,67,Male,80.9,165.9,Extremely Active,2881,Dessert,Pastry,3.11,15,84,12
+85,16,161,215.5,195.5,20.0,Small,3.0,2,204.0,61,Male,84.7,177.3,Extremely Active,3144,Dessert,Pastry,3.11,15,84,12
+98,16,161,161.66666666666666,118.0,43.666666666666664,Medium,2.6666666666666665,3,130.0,30,Female,62.4,167.0,Lightly Active,1866,Dessert,Pastry,3.11,15,84,12
+22,155,137,149.0,145.0,4.0,None,2.5,2,179.0,74,Female,55.4,164.4,Very Active,1813,Appetizer,Dip,2.32,18,35,12
+77,155,137,104.5,80.25,24.25,Medium,3.25,4,91.0,33,Female,64.9,160.8,Lightly Active,1826,Appetizer,Dip,2.32,18,35,12
+23,119,166,108.5,102.5,6.0,None,3.5,2,105.0,28,Female,61.4,160.4,Sedentary,1578,Dessert,Cake,3.71,-5,103,25
+39,119,166,122.5,102.5,20.0,Medium,3.0,2,113.0,52,Female,63.4,168.4,Sedentary,1518,Dessert,Cake,3.71,-5,103,25
+42,119,166,160.5,148.5,12.0,None,4.5,2,160.0,24,Female,76.0,159.2,Very Active,2544,Dessert,Cake,3.71,-5,103,25
+43,119,166,99.0,99.0,0.0,None,2.0,2,119.0,39,Female,62.6,170.3,Moderately Active,2068,Dessert,Cake,3.71,-5,103,25
+23,187,187,94.0,67.0,27.0,Large,3.5,2,79.0,28,Female,61.4,160.4,Sedentary,1578,Side Dish,Grains,1.88,10,52,12
+24,35,340,344.5,292.5,52.0,Medium,4.0,2,336.0,18,Female,50.4,162.6,Very Active,2189,Main Course,Pasta,1.61,25,95,7
+82,35,340,314.0,200.5,113.5,Medium,2.0,2,221.0,27,Female,65.0,163.2,Very Active,2369,Main Course,Pasta,1.61,25,95,7
+24,37,90,78.5,68.0,10.5,Medium,3.0,2,75.0,18,Female,50.4,162.6,Very Active,2189,Appetizer,Bread,3.04,9,47,6
+60,37,90,97.0,96.0,1.0,None,3.0,2,116.0,54,Male,70.2,174.6,Very Active,2637,Appetizer,Bread,3.04,9,47,6
+90,37,90,103.0,60.0,43.0,Medium,4.0,2,69.0,67,Male,63.9,171.4,Very Active,2382,Appetizer,Bread,3.04,9,47,6
+24,125,408,379.0,293.0,86.0,Medium,3.0,2,322.0,18,Female,50.4,162.6,Very Active,2189,Beverage,Water,0.0,0,0,0
+36,125,408,398.5,324.5,74.0,Medium,3.5,2,358.0,65,Male,86.0,177.4,Moderately Active,2556,Beverage,Water,0.0,0,0,0
+44,125,408,557.0,421.5,135.5,Medium,3.5,2,482.0,50,Male,112.6,175.1,Extremely Active,3755,Beverage,Water,0.0,0,0,0
+77,125,408,394.0,303.5,90.5,Medium,3.0,2,334.0,33,Female,64.9,160.8,Lightly Active,1826,Beverage,Water,0.0,0,0,0
+26,24,224,178.0,130.5,47.5,Medium,2.75,4,144.0,61,Male,73.8,172.3,Sedentary,1819,Side Dish,Vegetables,1.2,12,38,8
+50,24,224,265.0,225.5,39.5,Small,4.0,2,265.0,67,Male,120.0,180.6,Extremely Active,3798,Side Dish,Vegetables,1.2,12,38,8
+83,24,224,174.5,174.5,0.0,None,2.5,2,209.0,25,Female,56.7,166.9,Sedentary,1590,Side Dish,Vegetables,1.2,12,38,8
+26,45,103,93.0,78.5,14.5,Medium,3.0,2,86.0,61,Male,73.8,172.3,Sedentary,1819,Dessert,Ice Cream,2.33,7,33,9
+30,45,103,94.0,77.0,17.0,Medium,3.5,2,85.0,34,Female,78.8,160.2,Very Active,2516,Dessert,Ice Cream,2.33,7,33,9
+37,45,103,140.0,104.5,35.5,Medium,3.5,2,120.0,52,Male,85.7,182.7,Very Active,3008,Dessert,Ice Cream,2.33,7,33,9
+46,45,103,73.5,71.0,2.5,Small,3.5,2,72.0,46,Female,64.3,167.8,Moderately Active,2016,Dessert,Ice Cream,2.33,7,33,9
+77,45,103,63.0,63.0,0.0,None,4.0,2,63.0,33,Female,64.9,160.8,Lightly Active,1826,Dessert,Ice Cream,2.33,7,33,9
+78,45,103,121.0,79.5,41.5,Medium,3.5,2,98.0,46,Female,61.8,160.0,Very Active,2117,Dessert,Ice Cream,2.33,7,33,9
+26,151,247,255.5,148.0,107.5,Medium,2.5,2,163.0,61,Male,73.8,172.3,Sedentary,1819,Appetizer,Finger Food,2.95,34,99,22
+56,151,247,253.0,201.0,52.0,Medium,3.5,2,224.0,47,Female,60.1,164.4,Moderately Active,1911,Appetizer,Finger Food,2.95,34,99,22
+27,198,299,214.5,198.5,16.0,None,3.5,2,206.0,66,Male,70.1,171.1,Lightly Active,1988,Beverage,Coffee,0.18,3,5,2
+69,198,299,179.0,178.0,1.0,None,4.0,2,179.0,51,Female,47.8,164.8,Lightly Active,1502,Beverage,Coffee,0.18,3,5,2
+96,198,299,405.5,319.5,86.0,Medium,3.0,2,351.0,72,Male,83.6,178.8,Extremely Active,3038,Beverage,Coffee,0.18,3,5,2
+28,22,295,383.5,314.5,69.0,Medium,2.5,2,346.0,66,Male,84.1,176.5,Extremely Active,3078,Beverage,Coffee,0.61,10,23,5
+63,22,295,273.5,191.5,82.0,Medium,3.5,2,228.0,71,Male,81.6,173.9,Lightly Active,2135,Beverage,Coffee,0.61,10,23,5
+71,22,295,149.5,122.0,27.5,Medium,3.5,2,134.0,54,Female,71.1,169.5,Sedentary,1607,Beverage,Coffee,0.61,10,23,5
+94,22,295,226.0,209.0,17.0,None,4.0,2,226.0,66,Non-binary,61.9,181.0,Sedentary,1511,Beverage,Coffee,0.61,10,23,5
+95,22,295,191.5,174.0,17.5,Small,2.5,2,182.0,66,Female,77.4,164.3,Moderately Active,2030,Beverage,Coffee,0.61,10,23,5
+28,42,294,284.5,258.5,26.0,Small,3.0,2,270.0,66,Male,84.1,176.5,Extremely Active,3078,Beverage,Coffee,0.56,6,20,7
+28,64,248,269.3333333333333,242.33333333333334,27.0,Medium,3.6666666666666665,3,254.0,66,Male,84.1,176.5,Extremely Active,3078,Appetizer,Finger Food,3.89,37,118,38
+37,64,248,307.0,295.5,11.5,None,2.5,2,368.0,52,Male,85.7,182.7,Very Active,3008,Appetizer,Finger Food,3.89,37,118,38
+65,64,248,173.0,140.5,32.5,Medium,3.5,2,155.0,19,Female,61.1,165.4,Moderately Active,2153,Appetizer,Finger Food,3.89,37,118,38
+86,64,248,160.0,150.0,10.0,None,3.5,2,154.0,54,Female,54.3,170.1,Sedentary,1410,Appetizer,Finger Food,3.89,37,118,38
+28,77,173,176.0,166.0,10.0,None,2.5,2,211.0,66,Male,84.1,176.5,Extremely Active,3078,Side Dish,Potatoes,1.78,13,42,10
+31,77,173,101.5,83.0,18.5,Medium,3.5,2,91.0,28,Female,70.4,168.1,Sedentary,1745,Side Dish,Potatoes,1.78,13,42,10
+65,77,173,153.0,140.5,12.5,Small,4.0,2,153.0,19,Female,61.1,165.4,Moderately Active,2153,Side Dish,Potatoes,1.78,13,42,10
+28,107,419,581.5,378.0,203.5,Medium,4.0,2,435.0,66,Male,84.1,176.5,Extremely Active,3078,Main Course,Pizza,3.15,65,152,50
+47,107,419,453.5,223.5,230.0,Large,1.5,2,246.0,38,Male,70.2,172.7,Moderately Active,2475,Main Course,Pizza,3.15,65,152,50
+55,107,419,541.0,368.0,173.0,Medium,4.5,2,423.0,52,Male,89.9,186.5,Extremely Active,3440,Main Course,Pizza,3.15,65,152,50
+58,107,419,253.0,224.5,28.5,Medium,3.5,2,237.0,64,Female,48.9,166.9,Sedentary,1261,Main Course,Pizza,3.15,65,152,50
+90,107,419,416.5,386.5,30.0,None,4.0,2,416.0,67,Male,63.9,171.4,Very Active,2382,Main Course,Pizza,3.15,65,152,50
+29,5,114,119.0,96.5,22.5,Medium,4.0,2,111.0,19,Female,79.8,150.0,Very Active,2552,Appetizer,Dip,2.36,12,29,11
+29,128,373,428.5,295.0,133.5,Medium,3.0,2,324.0,19,Female,79.8,150.0,Very Active,2552,Main Course,Rice Dish,2.49,25,151,25
+31,128,373,186.0,164.5,21.5,Medium,3.5,2,174.0,28,Female,70.4,168.1,Sedentary,1745,Main Course,Rice Dish,2.49,25,151,25
+63,128,373,429.0,337.5,91.5,Medium,2.0,2,371.0,71,Male,81.6,173.9,Lightly Active,2135,Main Course,Rice Dish,2.49,25,151,25
+29,134,318,331.5,270.5,61.0,Medium,3.0,2,298.0,19,Female,79.8,150.0,Very Active,2552,Beverage,Water,0.0,0,0,0
+79,134,318,335.0,224.5,110.5,Medium,3.0,2,247.0,61,Female,65.6,165.3,Extremely Active,2324,Beverage,Water,0.0,0,0,0
+29,193,324,389.5,358.5,31.0,Small,4.0,2,390.0,19,Female,79.8,150.0,Very Active,2552,Beverage,Juice,0.54,10,22,5
+37,193,324,442.5,427.0,15.5,Small,3.0,2,434.0,52,Male,85.7,182.7,Very Active,3008,Beverage,Juice,0.54,10,22,5
+30,17,380,401.0,390.6666666666667,10.333333333333334,Small,3.0,3,395.0,34,Female,78.8,160.2,Very Active,2516,Beverage,Soda,0.49,11,18,8
+53,17,380,388.0,299.6666666666667,88.33333333333333,Medium,3.6666666666666665,3,339.0,39,Female,46.2,167.1,Extremely Active,2186,Beverage,Soda,0.49,11,18,8
+91,17,380,361.5,294.0,67.5,Medium,3.0,2,323.0,26,Male,73.1,183.7,Very Active,3025,Beverage,Soda,0.49,11,18,8
+30,18,106,132.0,96.0,36.0,Medium,4.5,2,110.0,34,Female,78.8,160.2,Very Active,2516,Appetizer,Dip,3.14,15,38,14
+34,18,106,96.0,62.333333333333336,33.666666666666664,Medium,3.3333333333333335,3,77.0,56,Male,76.1,171.5,Lightly Active,2143,Appetizer,Dip,3.14,15,38,14
+46,18,106,119.5,83.5,36.0,Medium,3.5,2,100.0,46,Female,64.3,167.8,Moderately Active,2016,Appetizer,Dip,3.14,15,38,14
+58,18,106,74.5,70.5,4.0,None,3.0,2,89.0,64,Female,48.9,166.9,Sedentary,1261,Appetizer,Dip,3.14,15,38,14
+62,18,106,108.0,81.0,27.0,Medium,4.0,2,93.0,38,Female,63.9,157.2,Extremely Active,2415,Appetizer,Dip,3.14,15,38,14
+86,18,106,76.0,59.5,16.5,Medium,3.0,2,65.0,54,Female,54.3,170.1,Sedentary,1410,Appetizer,Dip,3.14,15,38,14
+30,60,346,413.0,377.0,36.0,None,4.0,2,413.0,34,Female,78.8,160.2,Very Active,2516,Main Course,Vegetarian,1.5,28,60,18
+45,60,346,309.5,240.0,69.5,Medium,3.5,2,271.0,66,Female,62.6,154.3,Moderately Active,1704,Main Course,Vegetarian,1.5,28,60,18
+47,60,346,330.6666666666667,278.6666666666667,52.0,Medium,3.3333333333333335,3,302.0,38,Male,70.2,172.7,Moderately Active,2475,Main Course,Vegetarian,1.5,28,60,18
+65,60,346,339.5,305.0,34.5,Small,4.0,2,340.0,19,Female,61.1,165.4,Moderately Active,2153,Main Course,Vegetarian,1.5,28,60,18
+30,138,410,330.0,259.5,70.5,Medium,4.0,2,298.0,34,Female,78.8,160.2,Very Active,2516,Main Course,Pasta,1.68,31,96,20
+57,138,410,289.3333333333333,267.6666666666667,21.666666666666668,Medium,3.0,3,294.0,54,Male,71.9,189.5,Sedentary,1965,Main Course,Pasta,1.68,31,96,20
+30,165,67,62.0,48.5,13.5,Large,3.0,2,53.0,34,Female,78.8,160.2,Very Active,2516,Appetizer,Bread,3.16,9,35,4
+34,165,67,65.0,65.0,0.0,None,2.5,2,78.0,56,Male,76.1,171.5,Lightly Active,2143,Appetizer,Bread,3.16,9,35,4
+35,165,67,59.0,42.0,17.0,Medium,3.0,2,46.0,33,Male,95.7,178.6,Very Active,3300,Appetizer,Bread,3.16,9,35,4
+45,165,67,63.0,37.0,26.0,Large,3.0,2,41.0,66,Female,62.6,154.3,Moderately Active,1704,Appetizer,Bread,3.16,9,35,4
+49,165,67,48.5,40.5,8.0,Small,3.5,2,44.0,34,Female,82.8,167.7,Lightly Active,2124,Appetizer,Bread,3.16,9,35,4
+61,165,67,81.5,67.0,14.5,Medium,3.5,2,74.0,47,Male,89.3,180.1,Very Active,3085,Appetizer,Bread,3.16,9,35,4
+81,165,67,43.0,27.0,16.0,Medium,3.5,2,34.0,34,Female,78.6,161.0,Moderately Active,2265,Appetizer,Bread,3.16,9,35,4
+30,173,170,212.0,204.0,8.0,None,3.0,2,254.0,34,Female,78.8,160.2,Very Active,2516,Dessert,Pastry,4.27,30,113,17
+33,173,170,121.5,115.0,6.5,None,3.0,2,146.0,36,Female,62.3,160.7,Sedentary,1543,Dessert,Pastry,4.27,30,113,17
+40,173,170,214.0,179.5,34.5,Small,3.0,2,195.0,35,Male,70.4,156.8,Extremely Active,2876,Dessert,Pastry,4.27,30,113,17
+65,173,170,166.0,161.0,5.0,None,3.5,2,163.0,19,Female,61.1,165.4,Moderately Active,2153,Dessert,Pastry,4.27,30,113,17
+31,21,398,270.0,233.5,36.5,Small,3.0,2,250.0,28,Female,70.4,168.1,Sedentary,1745,Main Course,Vegetarian,1.32,30,63,17
+37,21,398,513.3333333333334,497.3333333333333,16.0,None,3.3333333333333335,3,505.0,52,Male,85.7,182.7,Very Active,3008,Main Course,Vegetarian,1.32,30,63,17
+49,21,398,262.0,215.33333333333334,46.666666666666664,Medium,3.6666666666666665,3,236.0,34,Female,82.8,167.7,Lightly Active,2124,Main Course,Vegetarian,1.32,30,63,17
+74,21,398,273.0,273.0,0.0,None,2.0,2,328.0,65,Female,56.6,155.7,Moderately Active,1632,Main Course,Vegetarian,1.32,30,63,17
+80,21,398,431.0,347.5,83.5,Medium,2.5,2,382.0,67,Male,80.9,165.9,Extremely Active,2881,Main Course,Vegetarian,1.32,30,63,17
+31,55,245,200.5,187.5,13.0,Medium,2.5,2,206.0,28,Female,70.4,168.1,Sedentary,1745,Side Dish,Beans,1.49,19,38,15
+31,65,207,142.0,134.5,7.5,Small,3.5,2,138.0,28,Female,70.4,168.1,Sedentary,1745,Appetizer,Soup,1.2,11,27,11
+85,65,207,268.0,233.0,35.0,Medium,3.0,2,256.0,61,Male,84.7,177.3,Extremely Active,3144,Appetizer,Soup,1.2,11,27,11
+89,65,207,223.0,193.5,29.5,Medium,3.5,2,207.0,41,Male,89.4,166.8,Very Active,2996,Appetizer,Soup,1.2,11,27,11
+31,102,230,171.5,124.0,47.5,Medium,3.5,2,145.0,28,Female,70.4,168.1,Sedentary,1745,Main Course,Fish,2.35,43,30,28
+73,102,230,152.0,78.5,73.5,Large,4.0,2,90.0,40,Female,67.6,162.6,Sedentary,1597,Main Course,Fish,2.35,43,30,28
+32,10,262,180.5,150.5,30.0,Medium,4.0,2,173.0,20,Female,73.7,175.2,Moderately Active,2436,Main Course,Fish,1.25,29,17,16
+32,124,394,284.0,276.5,7.5,None,3.0,2,341.0,20,Female,73.7,175.2,Moderately Active,2436,Main Course,Rice Dish,1.59,23,99,15
+37,124,394,532.5,341.5,191.0,Large,3.5,2,427.0,52,Male,85.7,182.7,Very Active,3008,Main Course,Rice Dish,1.59,23,99,15
+50,124,394,427.5,310.0,117.5,Medium,4.0,2,356.0,67,Male,120.0,180.6,Extremely Active,3798,Main Course,Rice Dish,1.59,23,99,15
+65,124,394,324.5,283.0,41.5,Medium,3.5,2,302.0,19,Female,61.1,165.4,Moderately Active,2153,Main Course,Rice Dish,1.59,23,99,15
+77,124,394,258.5,216.0,42.5,Medium,4.0,2,248.0,33,Female,64.9,160.8,Lightly Active,1826,Main Course,Rice Dish,1.59,23,99,15
+96,124,394,503.5,388.0,115.5,Medium,2.5,2,427.0,72,Male,83.6,178.8,Extremely Active,3038,Main Course,Rice Dish,1.59,23,99,15
+32,126,373,220.0,159.0,61.0,Large,3.5,2,186.0,20,Female,73.7,175.2,Moderately Active,2436,Main Course,Rice Dish,2.27,38,111,28
+32,197,320,351.0,299.0,52.0,Medium,3.0,2,329.0,20,Female,73.7,175.2,Moderately Active,2436,Appetizer,Soup,1.24,25,36,17
+58,197,320,257.5,257.5,0.0,None,3.0,2,309.0,64,Female,48.9,166.9,Sedentary,1261,Appetizer,Soup,1.24,25,36,17
+78,197,320,358.0,307.0,51.0,Medium,2.5,2,338.0,46,Female,61.8,160.0,Very Active,2117,Appetizer,Soup,1.24,25,36,17
+33,3,242,138.5,116.0,22.5,Medium,2.5,2,128.0,36,Female,62.3,160.7,Sedentary,1543,Main Course,Meat,2.76,76,39,23
+33,4,266,183.5,167.0,16.5,Small,3.5,2,174.0,36,Female,62.3,160.7,Sedentary,1543,Beverage,Tea,0.32,4,12,2
+42,4,266,225.0,177.0,48.0,Medium,3.5,2,199.0,24,Female,76.0,159.2,Very Active,2544,Beverage,Tea,0.32,4,12,2
+58,4,266,220.5,180.5,40.0,Medium,3.0,2,199.0,64,Female,48.9,166.9,Sedentary,1261,Beverage,Tea,0.32,4,12,2
+91,4,266,266.0,231.0,35.0,Small,2.5,2,247.0,26,Male,73.1,183.7,Very Active,3025,Beverage,Tea,0.32,4,12,2
+33,43,280,184.5,125.0,59.5,Large,2.5,2,138.0,36,Female,62.3,160.7,Sedentary,1543,Main Course,Rice Dish,2.06,17,77,22
+84,43,280,157.0,144.0,13.0,None,4.5,2,157.0,74,Female,56.6,156.3,Sedentary,1214,Main Course,Rice Dish,2.06,17,77,22
+98,43,280,277.5,270.0,7.5,None,2.5,2,333.0,30,Female,62.4,167.0,Lightly Active,1866,Main Course,Rice Dish,2.06,17,77,22
+33,194,158,117.0,107.5,9.5,None,4.5,2,117.0,36,Female,62.3,160.7,Sedentary,1543,Dessert,Pudding,2.34,6,57,13
+34,194,158,87.0,74.5,12.5,Medium,2.5,2,82.0,56,Male,76.1,171.5,Lightly Active,2143,Dessert,Pudding,2.34,6,57,13
+76,194,158,151.5,122.5,29.0,Small,3.0,2,136.0,64,Female,86.4,171.7,Extremely Active,2768,Dessert,Pudding,2.34,6,57,13
+99,194,158,126.5,99.0,27.5,Medium,3.0,2,109.0,51,Male,78.9,185.9,Lightly Active,2339,Dessert,Pudding,2.34,6,57,13
+34,137,406,350.5,315.5,35.0,None,3.5,2,331.0,56,Male,76.1,171.5,Lightly Active,2143,Beverage,Soda,0.42,7,21,7
+55,137,406,612.0,468.5,143.5,Medium,3.0,2,515.0,52,Male,89.9,186.5,Extremely Active,3440,Beverage,Soda,0.42,7,21,7
+34,164,127,91.0,77.0,14.0,Small,3.5,2,83.0,56,Male,76.1,171.5,Lightly Active,2143,Appetizer,Finger Food,3.38,23,48,16
+50,164,127,176.0,146.0,30.0,Medium,4.5,2,168.0,67,Male,120.0,180.6,Extremely Active,3798,Appetizer,Finger Food,3.38,23,48,16
+76,164,127,150.0,91.5,58.5,Medium,3.0,2,101.0,64,Female,86.4,171.7,Extremely Active,2768,Appetizer,Finger Food,3.38,23,48,16
+35,46,236,221.0,160.0,61.0,Medium,3.5,2,187.0,33,Male,95.7,178.6,Very Active,3300,Beverage,Juice,0.66,7,22,5
+44,46,236,362.5,315.5,47.0,Medium,2.5,2,347.0,50,Male,112.6,175.1,Extremely Active,3755,Beverage,Juice,0.66,7,22,5
+71,46,236,184.5,153.0,31.5,Small,4.0,2,184.0,54,Female,71.1,169.5,Sedentary,1607,Beverage,Juice,0.66,7,22,5
+35,69,229,266.5,241.0,25.5,Medium,4.5,2,277.0,33,Male,95.7,178.6,Very Active,3300,Side Dish,Potatoes,1.93,25,41,20
+35,97,160,188.5,133.5,55.0,Medium,3.5,2,158.0,33,Male,95.7,178.6,Very Active,3300,Dessert,Cake,3.91,22,86,22
+45,97,160,99.5,90.0,9.5,None,3.5,2,94.0,66,Female,62.6,154.3,Moderately Active,1704,Dessert,Cake,3.91,22,86,22
+60,97,160,206.5,195.5,11.0,None,3.5,2,200.0,54,Male,70.2,174.6,Very Active,2637,Dessert,Cake,3.91,22,86,22
+74,97,160,87.5,67.5,20.0,Medium,4.0,2,78.0,65,Female,56.6,155.7,Moderately Active,1632,Dessert,Cake,3.91,22,86,22
+92,97,160,119.0,100.0,19.0,Medium,3.0,2,110.0,35,Female,47.7,175.1,Sedentary,1482,Dessert,Cake,3.91,22,86,22
+100,97,160,135.5,115.0,20.5,Medium,3.5,2,124.0,22,Female,90.4,161.6,Extremely Active,3122,Dessert,Cake,3.91,22,86,22
+36,156,193,261.5,250.0,11.5,None,4.0,2,262.0,65,Male,86.0,177.4,Moderately Active,2556,Dessert,Pudding,1.67,5,53,10
+46,156,193,143.5,117.0,26.5,Medium,4.0,2,135.0,46,Female,64.3,167.8,Moderately Active,2016,Dessert,Pudding,1.67,5,53,10
+83,156,193,96.0,68.5,27.5,Large,3.0,2,75.0,25,Female,56.7,166.9,Sedentary,1590,Dessert,Pudding,1.67,5,53,10
+37,56,309,351.0,224.5,126.5,Medium,3.0,2,247.0,52,Male,85.7,182.7,Very Active,3008,Beverage,Soda,0.33,6,13,3
+60,56,309,291.0,201.5,89.5,Medium,3.5,2,242.0,54,Male,70.2,174.6,Very Active,2637,Beverage,Soda,0.33,6,13,3
+66,56,309,325.5,261.5,64.0,Medium,3.5,2,290.0,67,Female,67.0,158.8,Extremely Active,2217,Beverage,Soda,0.33,6,13,3
+71,56,309,154.0,130.0,24.0,Medium,2.0,2,143.0,54,Female,71.1,169.5,Sedentary,1607,Beverage,Soda,0.33,6,13,3
+80,56,309,408.3333333333333,306.0,102.33333333333333,Large,3.3333333333333335,3,352.0,67,Male,80.9,165.9,Extremely Active,2881,Beverage,Soda,0.33,6,13,3
+38,163,254,300.0,299.5,0.5,None,3.5,2,300.0,50,Male,82.8,172.2,Very Active,2862,Side Dish,Potatoes,1.98,22,70,15
+60,163,254,253.0,253.0,0.0,None,2.5,2,304.0,54,Male,70.2,174.6,Very Active,2637,Side Dish,Potatoes,1.98,22,70,15
+39,44,281,250.5,177.5,73.0,Medium,4.5,2,204.0,52,Female,63.4,168.4,Sedentary,1518,Beverage,Water,0.0,0,0,0
+43,44,281,313.5,313.5,0.0,None,2.0,2,376.0,39,Female,62.6,170.3,Moderately Active,2068,Beverage,Water,0.0,0,0,0
+61,44,281,283.5,243.0,40.5,Medium,2.5,2,267.0,47,Male,89.3,180.1,Very Active,3085,Beverage,Water,0.0,0,0,0
+42,90,50,34.333333333333336,25.0,9.333333333333334,Medium,3.3333333333333335,3,29.0,24,Female,76.0,159.2,Very Active,2544,Appetizer,Dip,2.32,6,12,5
+75,90,50,44.5,40.5,4.0,Small,4.5,2,44.0,58,Male,91.8,174.1,Very Active,2969,Appetizer,Dip,2.32,6,12,5
+85,90,50,68.5,48.0,20.5,Medium,3.0,2,53.0,61,Male,84.7,177.3,Extremely Active,3144,Appetizer,Dip,2.32,6,12,5
+43,175,111,129.0,118.0,11.0,Small,3.5,2,123.0,39,Female,62.6,170.3,Moderately Active,2068,Side Dish,Vegetables,0.31,1,5,1
+44,75,309,440.0,358.5,81.5,Medium,2.5,2,394.0,50,Male,112.6,175.1,Extremely Active,3755,Beverage,Smoothie,0.88,10,31,12
+44,83,486,553.0,438.0,115.0,Medium,3.3333333333333335,3,490.0,50,Male,112.6,175.1,Extremely Active,3755,Beverage,Smoothie,0.61,16,37,9
+57,83,486,311.5,289.5,22.0,None,2.0,2,374.0,54,Male,71.9,189.5,Sedentary,1965,Beverage,Smoothie,0.61,16,37,9
+62,83,486,622.0,444.5,177.5,Medium,3.0,2,489.0,38,Female,63.9,157.2,Extremely Active,2415,Beverage,Smoothie,0.61,16,37,9
+44,180,295,412.0,234.5,177.5,Medium,3.5,2,314.0,50,Male,112.6,175.1,Extremely Active,3755,Main Course,Vegetarian,1.11,16,34,14
+74,180,295,217.0,177.0,40.0,Medium,4.0,2,204.0,65,Female,56.6,155.7,Moderately Active,1632,Main Course,Vegetarian,1.11,16,34,14
+45,53,204,225.0,181.0,44.0,Medium,4.0,2,208.0,66,Female,62.6,154.3,Moderately Active,1704,Beverage,Alcohol,1.41,12,36,11
+67,53,204,168.0,137.5,30.5,Medium,4.5,2,158.0,29,Female,63.9,167.6,Lightly Active,1899,Beverage,Alcohol,1.41,12,36,11
+45,95,181,106.0,106.0,0.0,None,3.5,2,106.0,66,Female,62.6,154.3,Moderately Active,1704,Side Dish,Beans,1.09,8,25,7
+46,150,163,103.0,74.5,28.5,Medium,3.0,2,82.0,46,Female,64.3,167.8,Moderately Active,2016,Dessert,Ice Cream,3.13,23,68,16
+52,150,163,115.5,114.0,1.5,None,2.5,2,139.0,40,Male,94.4,168.6,Lightly Active,2479,Dessert,Ice Cream,3.13,23,68,16
+71,150,163,83.0,62.5,20.5,Medium,3.5,2,72.0,54,Female,71.1,169.5,Sedentary,1607,Dessert,Ice Cream,3.13,23,68,16
+74,150,163,160.5,132.0,28.5,Medium,3.5,2,145.0,65,Female,56.6,155.7,Moderately Active,1632,Dessert,Ice Cream,3.13,23,68,16
+47,118,159,153.0,97.0,56.0,Large,4.0,2,112.0,38,Male,70.2,172.7,Moderately Active,2475,Dessert,Cake,4.42,31,97,21
+48,74,299,261.0,232.0,29.0,Medium,3.0,2,255.0,48,Female,78.9,158.1,Moderately Active,2133,Side Dish,Potatoes,1.08,20,33,12
+65,74,299,251.0,151.0,100.0,Medium,4.5,2,174.0,19,Female,61.1,165.4,Moderately Active,2153,Side Dish,Potatoes,1.08,20,33,12
+49,26,325,270.0,243.5,26.5,Medium,3.0,2,268.0,34,Female,82.8,167.7,Lightly Active,2124,Main Course,Burger,2.96,87,46,48
+52,26,325,220.5,210.5,10.0,None,3.0,2,265.0,40,Male,94.4,168.6,Lightly Active,2479,Main Course,Burger,2.96,87,46,48
+98,26,325,281.5,281.5,0.0,None,3.0,2,338.0,30,Female,62.4,167.0,Lightly Active,1866,Main Course,Burger,2.96,87,46,48
+49,79,221,163.5,152.0,11.5,None,3.0,2,196.0,34,Female,82.8,167.7,Lightly Active,2124,Side Dish,Vegetables,1.09,7,31,10
+80,79,221,283.0,241.5,41.5,Medium,3.0,2,266.0,67,Male,80.9,165.9,Extremely Active,2881,Side Dish,Vegetables,1.09,7,31,10
+51,81,365,356.5,310.0,46.5,Small,3.5,2,331.0,63,Female,66.8,166.4,Very Active,2124,Appetizer,Soup,0.85,17,35,12
+82,81,365,305.5,218.0,87.5,Medium,2.0,2,240.0,27,Female,65.0,163.2,Very Active,2369,Appetizer,Soup,0.85,17,35,12
+90,81,365,446.5,392.5,54.0,Small,4.0,2,446.0,67,Male,63.9,171.4,Very Active,2382,Appetizer,Soup,0.85,17,35,12
+52,188,395,528.0,392.0,136.0,Medium,3.5,2,453.0,40,Male,94.4,168.6,Lightly Active,2479,Main Course,Burger,3.49,110,103,58
+71,188,395,247.0,195.33333333333334,51.666666666666664,Medium,3.6666666666666665,3,219.0,54,Female,71.1,169.5,Sedentary,1607,Main Course,Burger,3.49,110,103,58
+53,34,238,171.33333333333334,147.66666666666666,23.666666666666668,Small,3.6666666666666665,3,158.0,39,Female,46.2,167.1,Extremely Active,2186,Dessert,Fruit,0.85,8,22,9
+62,34,238,281.6666666666667,253.66666666666666,28.0,Small,3.0,3,266.0,38,Female,63.9,157.2,Extremely Active,2415,Dessert,Fruit,0.85,8,22,9
+54,104,190,233.0,189.5,43.5,Medium,3.0,2,208.0,61,Female,70.2,164.7,Extremely Active,2404,Dessert,Cake,3.89,10,115,26
+87,104,190,257.6666666666667,207.0,50.666666666666664,Medium,4.0,3,238.0,66,Male,102.3,174.0,Extremely Active,3393,Dessert,Cake,3.89,10,115,26
+88,104,190,140.5,123.0,17.5,Medium,3.0,2,135.0,33,Female,67.1,167.2,Lightly Active,1911,Dessert,Cake,3.89,10,115,26
+94,104,190,172.0,145.5,26.5,Small,3.0,2,157.0,66,Non-binary,61.9,181.0,Sedentary,1511,Dessert,Cake,3.89,10,115,26
+55,14,313,298.0,249.0,49.0,Medium,3.0,2,274.0,52,Male,89.9,186.5,Extremely Active,3440,Main Course,Sandwich,2.38,34,80,32
+90,14,313,463.5,333.5,130.0,Medium,3.5,2,392.0,67,Male,63.9,171.4,Very Active,2382,Main Course,Sandwich,2.38,34,80,32
+57,85,226,219.0,149.0,70.0,Medium,3.5,2,180.0,54,Male,71.9,189.5,Sedentary,1965,Main Course,Fish,1.21,24,15,13
+85,85,226,330.5,304.0,26.5,None,2.5,2,397.0,61,Male,84.7,177.3,Extremely Active,3144,Main Course,Fish,1.21,24,15,13
+59,31,141,126.0,120.5,5.5,None,3.0,2,151.0,18,Female,75.3,177.7,Moderately Active,2500,Dessert,Pudding,2.66,17,47,13
+80,31,141,128.5,125.5,3.0,None,3.0,2,154.0,67,Male,80.9,165.9,Extremely Active,2881,Dessert,Pudding,2.66,17,47,13
+87,31,141,198.5,195.0,3.5,None,4.0,2,198.0,66,Male,102.3,174.0,Extremely Active,3393,Dessert,Pudding,2.66,17,47,13
+59,47,171,126.0,97.0,29.0,Medium,2.5,2,107.0,18,Female,75.3,177.7,Moderately Active,2500,Side Dish,Beans,1.41,11,33,7
+73,47,171,86.0,77.5,8.5,None,3.0,2,103.0,40,Female,67.6,162.6,Sedentary,1597,Side Dish,Beans,1.41,11,33,7
+59,147,273,233.5,213.5,20.0,None,3.0,2,280.0,18,Female,75.3,177.7,Moderately Active,2500,Appetizer,Salad,1.16,13,45,9
+60,11,230,287.5,218.0,69.5,Medium,2.5,2,240.0,54,Male,70.2,174.6,Very Active,2637,Side Dish,Grains,1.35,9,45,11
+69,11,230,178.33333333333334,159.0,19.333333333333332,Small,3.3333333333333335,3,168.0,51,Female,47.8,164.8,Lightly Active,1502,Side Dish,Grains,1.35,9,45,11
+61,196,403,490.5,319.5,171.0,Medium,2.5,2,351.0,47,Male,89.3,180.1,Very Active,3085,Main Course,Pizza,2.94,49,159,39
+83,196,403,221.0,216.5,4.5,None,3.5,2,219.0,25,Female,56.7,166.9,Sedentary,1590,Main Course,Pizza,2.94,49,159,39
+62,94,374,343.0,321.5,21.5,None,3.5,2,331.0,38,Female,63.9,157.2,Extremely Active,2415,Main Course,Vegetarian,1.71,33,76,23
+75,94,374,505.0,391.0,114.0,Small,3.3333333333333335,3,442.0,58,Male,91.8,174.1,Very Active,2969,Main Course,Vegetarian,1.71,33,76,23
+65,92,175,139.0,104.0,35.0,Medium,3.0,2,114.0,19,Female,61.1,165.4,Moderately Active,2153,Dessert,Pastry,3.3,4,85,25
+89,92,175,200.0,123.5,76.5,Large,2.5,2,136.0,41,Male,89.4,166.8,Very Active,2996,Dessert,Pastry,3.3,4,85,25
+69,58,293,209.66666666666666,180.33333333333334,29.333333333333332,None,3.0,3,252.0,51,Female,47.8,164.8,Lightly Active,1502,Side Dish,Potatoes,0.96,14,36,9
+78,58,293,278.5,259.5,19.0,Small,3.0,2,268.0,46,Female,61.8,160.0,Very Active,2117,Side Dish,Potatoes,0.96,14,36,9
+84,58,293,244.5,209.5,35.0,Medium,1.5,2,230.0,74,Female,56.6,156.3,Sedentary,1214,Side Dish,Potatoes,0.96,14,36,9
+92,58,293,160.0,158.5,1.5,None,3.5,2,159.0,35,Female,47.7,175.1,Sedentary,1482,Side Dish,Potatoes,0.96,14,36,9
+95,58,293,306.0,260.0,46.0,Medium,3.5,2,281.0,66,Female,77.4,164.3,Moderately Active,2030,Side Dish,Potatoes,0.96,14,36,9
+69,116,199,166.0,114.0,52.0,Medium,2.0,2,125.0,51,Female,47.8,164.8,Lightly Active,1502,Appetizer,Finger Food,2.65,30,66,16
+69,184,350,225.5,214.5,11.0,None,4.0,2,226.0,51,Female,47.8,164.8,Lightly Active,1502,Main Course,Vegetarian,1.56,23,78,16
+78,184,350,290.5,247.0,43.5,Medium,2.5,2,272.0,46,Female,61.8,160.0,Very Active,2117,Main Course,Vegetarian,1.56,23,78,16
+96,184,350,534.0,307.5,226.5,Large,2.5,2,338.0,72,Male,83.6,178.8,Extremely Active,3038,Main Course,Vegetarian,1.56,23,78,16
+70,136,240,298.5,248.0,50.5,Medium,2.5,2,273.0,28,Male,87.0,179.5,Extremely Active,3528,Side Dish,Grains,1.35,12,42,12
+71,86,152,101.0,91.0,10.0,Small,4.0,2,101.0,54,Female,71.1,169.5,Sedentary,1607,Appetizer,Salad,1.73,8,28,13
+79,86,152,186.5,134.0,52.5,Large,3.5,2,158.0,61,Female,65.6,165.3,Extremely Active,2324,Appetizer,Salad,1.73,8,28,13
+97,86,152,119.5,94.5,25.0,Large,3.5,2,106.0,40,Female,71.2,162.3,Sedentary,1639,Appetizer,Salad,1.73,8,28,13
+72,88,187,223.0,152.5,70.5,Medium,2.0,2,168.0,35,Male,61.7,180.4,Extremely Active,2992,Appetizer,Finger Food,2.69,27,67,14
+73,99,214,163.0,109.0,54.0,Medium,3.3333333333333335,3,133.0,40,Female,67.6,162.6,Sedentary,1597,Beverage,Coffee,0.39,4,10,3
+90,99,214,242.5,146.5,96.0,Large,2.5,2,161.0,67,Male,63.9,171.4,Very Active,2382,Beverage,Coffee,0.39,4,10,3
+73,106,273,141.5,102.5,39.0,Medium,2.5,2,113.0,40,Female,67.6,162.6,Sedentary,1597,Side Dish,Beans,1.45,21,45,14
+73,183,132,92.0,71.0,21.0,Medium,2.5,2,78.0,40,Female,67.6,162.6,Sedentary,1597,Appetizer,Bread,3.36,21,74,7
+84,183,132,110.5,88.5,22.0,Medium,3.5,2,98.0,74,Female,56.6,156.3,Sedentary,1214,Appetizer,Bread,3.36,21,74,7
+74,117,465,414.0,414.0,0.0,None,4.0,2,414.0,65,Female,56.6,155.7,Moderately Active,1632,Beverage,Water,0.0,0,0,0
+76,30,268,243.0,168.5,74.5,Medium,3.0,2,185.0,64,Female,86.4,171.7,Extremely Active,2768,Main Course,Rice Dish,2.32,29,81,20
+76,177,249,278.0,199.0,79.0,Medium,2.5,2,219.0,64,Female,86.4,171.7,Extremely Active,2768,Side Dish,Potatoes,1.72,19,61,12
+79,157,361,388.0,311.0,77.0,Medium,3.0,2,342.0,61,Female,65.6,165.3,Extremely Active,2324,Main Course,Pizza,2.58,44,124,29
+87,157,361,356.5,331.5,25.0,None,4.0,2,356.0,66,Male,102.3,174.0,Extremely Active,3393,Main Course,Pizza,2.58,44,124,29
+88,157,361,242.5,185.0,57.5,Medium,3.0,2,204.0,33,Female,67.1,167.2,Lightly Active,1911,Main Course,Pizza,2.58,44,124,29
+97,157,361,228.5,193.0,35.5,Medium,2.5,2,212.0,40,Female,71.2,162.3,Sedentary,1639,Main Course,Pizza,2.58,44,124,29
+83,25,327,261.0,236.5,24.5,Medium,3.0,2,260.0,25,Female,56.7,166.9,Sedentary,1590,Beverage,Alcohol,1.41,21,55,17
+84,192,344,215.5,141.5,74.0,Large,2.0,2,156.0,74,Female,56.6,156.3,Sedentary,1214,Beverage,Tea,0.44,8,18,5
+86,103,340,238.0,184.0,54.0,Medium,3.5,2,208.0,54,Female,54.3,170.1,Sedentary,1410,Main Course,Pizza,3.19,63,139,31
+93,103,340,313.0,307.0,6.0,None,3.5,2,310.0,47,Male,76.6,176.5,Sedentary,1967,Main Course,Pizza,3.19,63,139,31
+93,9,142,110.5,93.5,17.0,Small,4.0,2,110.0,47,Male,76.6,176.5,Sedentary,1967,Side Dish,Grains,1.81,8,42,7
+96,121,290,331.5,228.5,103.0,Medium,3.5,2,275.0,72,Male,83.6,178.8,Extremely Active,3038,Beverage,Coffee,0.93,12,33,10
+99,121,290,325.5,250.0,75.5,Medium,3.5,2,284.0,51,Male,78.9,185.9,Lightly Active,2339,Beverage,Coffee,0.93,12,33,10
+98,96,270,169.0,153.66666666666666,15.333333333333334,Medium,3.0,3,169.0,30,Female,62.4,167.0,Lightly Active,1866,Main Course,Fish,1.58,51,3,23
+99,61,100,105.5,74.5,31.0,Large,3.0,2,82.0,51,Male,78.9,185.9,Lightly Active,2339,Side Dish,Grains,1.97,5,25,9
+100,190,51,65.0,51.0,14.0,Medium,4.5,2,59.0,22,Female,90.4,161.6,Extremely Active,3122,Appetizer,Bread,3.26,7,21,6

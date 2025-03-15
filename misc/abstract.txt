@@ -1,0 +1,10 @@
+I've created a comprehensive problem statement and abstract for your food right-sizing app idea. The problem statement outlines the significant issue of food waste at household levels, supported by UN data, and explains how current solutions fail to address the mismatch between restaurant portions and actual household needs.
+The abstract introduces "FoodFit" as your solution, describing how it uses machine learning and computer vision to predict optimal food quantities based on consumption patterns. It explains the data collection methods, prediction capabilities, and restaurant integration features while highlighting the potential benefits: waste reduction, cost savings, and environmental impact.
+
+Portion Size Display: Restaurants specify portion servings (in grams/calories/approx quantity) for each dish.
+✅ Personalized Portion Recommendations: AI recommends ideal portion sizes or item combinations based on user history, appetite, and dietary needs.
+✅ Waste Forecast Meter: Predicts the likelihood of leftovers for a dish using feedback from similar users.
+✅ Smart Suggestions: Alternate meal/item combinations suggested to reduce over-ordering.
+✅ Consumption Feedback Loop: Users can rate portion accuracy and report food leftover levels to improve prediction models.
+✅ Calorie Awareness: Calorie tracking and dietary insights are integrated into the order flow.
+✅ Sustainability Dashboard: Displays waste prevented, money saved, and carbon footprint reduction per user.

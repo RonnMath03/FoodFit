@@ -1,0 +1,101 @@
+user_id,age,gender,weight_kg,height_cm,activity_level,dietary_preference,bmr,tdee,created_at
+1,46,Male,72.6,180.8,Extremely Active,Gluten-Free,1631,3099,2025-03-15
+2,40,Male,89.2,188.1,Extremely Active,Vegetarian,1872,3558,2025-03-15
+3,47,Female,59.7,161.5,Extremely Active,None,1211,2301,2025-03-15
+4,39,Male,87.2,159.9,Very Active,Vegan,1682,2901,2025-03-15
+5,69,Male,81.3,173.2,Moderately Active,Gluten-Free,1556,2411,2025-03-15
+6,56,Male,93.4,162.8,Lightly Active,Keto,1677,2306,2025-03-15
+7,45,Male,78.1,169.8,Extremely Active,Dairy-Free,1622,3082,2025-03-15
+8,31,Male,75.1,168.6,Very Active,Vegetarian,1655,2855,2025-03-15
+9,71,Male,82.4,167.7,Lightly Active,Mediterranean,1522,2092,2025-03-15
+10,27,Male,90.6,178.5,Very Active,Low-Carb,1892,3263,2025-03-15
+11,38,Non-binary,61.4,158.2,Extremely Active,Dairy-Free,1251,2377,2025-03-15
+12,62,Male,75.4,179.3,Sedentary,Low-Carb,1569,1883,2025-03-15
+13,41,Non-binary,60.5,157.5,Moderately Active,Vegan,1223,1895,2025-03-15
+14,52,Female,78.0,167.9,Lightly Active,Gluten-Free,1408,1937,2025-03-15
+15,45,Female,74.8,167.0,Lightly Active,None,1405,1932,2025-03-15
+16,40,Male,94.8,185.5,Very Active,Dairy-Free,1912,3299,2025-03-15
+17,52,Male,79.1,169.7,Moderately Active,None,1597,2475,2025-03-15
+18,72,Female,80.6,164.8,Sedentary,Mediterranean,1315,1578,2025-03-15
+19,30,Male,78.6,178.1,Sedentary,Pescatarian,1754,2105,2025-03-15
+20,21,Female,68.6,163.7,Extremely Active,Pescatarian,1443,2741,2025-03-15
+21,24,Female,60.0,160.1,Lightly Active,Mediterranean,1320,1815,2025-03-15
+22,74,Female,55.4,164.4,Very Active,Pescatarian,1051,1813,2025-03-15
+23,28,Female,61.4,160.4,Sedentary,Gluten-Free,1315,1578,2025-03-15
+24,18,Female,50.4,162.6,Very Active,Low-Carb,1269,2189,2025-03-15
+25,23,Male,84.1,158.4,Extremely Active,None,1722,3271,2025-03-15
+26,61,Male,73.8,172.3,Sedentary,Pescatarian,1515,1819,2025-03-15
+27,66,Male,70.1,171.1,Lightly Active,Vegan,1446,1988,2025-03-15
+28,66,Male,84.1,176.5,Extremely Active,None,1620,3078,2025-03-15
+29,19,Female,79.8,150.0,Very Active,Gluten-Free,1480,2552,2025-03-15
+30,34,Female,78.8,160.2,Very Active,Vegetarian,1459,2516,2025-03-15
+31,28,Female,70.4,168.1,Sedentary,Paleo,1454,1745,2025-03-15
+32,20,Female,73.7,175.2,Moderately Active,Mediterranean,1572,2436,2025-03-15
+33,36,Female,62.3,160.7,Sedentary,None,1286,1543,2025-03-15
+34,56,Male,76.1,171.5,Lightly Active,Vegan,1558,2143,2025-03-15
+35,33,Male,95.7,178.6,Very Active,None,1913,3300,2025-03-15
+36,65,Male,86.0,177.4,Moderately Active,Gluten-Free,1649,2556,2025-03-15
+37,52,Male,85.7,182.7,Very Active,Dairy-Free,1744,3008,2025-03-15
+38,50,Male,82.8,172.2,Very Active,Paleo,1659,2862,2025-03-15
+39,52,Female,63.4,168.4,Sedentary,Vegetarian,1265,1518,2025-03-15
+40,35,Male,70.4,156.8,Extremely Active,Low-Carb,1514,2876,2025-03-15
+41,21,Male,66.4,171.7,Very Active,Dairy-Free,1638,2825,2025-03-15
+42,24,Female,76.0,159.2,Very Active,Vegan,1475,2544,2025-03-15
+43,39,Female,62.6,170.3,Moderately Active,Vegetarian,1334,2068,2025-03-15
+44,50,Male,112.6,175.1,Extremely Active,Vegan,1976,3755,2025-03-15
+45,66,Female,62.6,154.3,Moderately Active,Low-Carb,1099,1704,2025-03-15
+46,46,Female,64.3,167.8,Moderately Active,None,1301,2016,2025-03-15
+47,38,Male,70.2,172.7,Moderately Active,Vegetarian,1597,2475,2025-03-15
+48,48,Female,78.9,158.1,Moderately Active,Mediterranean,1376,2133,2025-03-15
+49,34,Female,82.8,167.7,Lightly Active,Gluten-Free,1545,2124,2025-03-15
+50,67,Male,120.0,180.6,Extremely Active,Pescatarian,1999,3798,2025-03-15
+51,63,Female,66.8,166.4,Very Active,Vegetarian,1232,2124,2025-03-15
+52,40,Male,94.4,168.6,Lightly Active,Paleo,1803,2479,2025-03-15
+53,39,Female,46.2,167.1,Extremely Active,None,1151,2186,2025-03-15
+54,61,Female,70.2,164.7,Extremely Active,Pescatarian,1265,2404,2025-03-15
+55,52,Male,89.9,186.5,Extremely Active,Vegetarian,1810,3440,2025-03-15
+56,47,Female,60.1,164.4,Moderately Active,Mediterranean,1233,1911,2025-03-15
+57,54,Male,71.9,189.5,Sedentary,Mediterranean,1638,1965,2025-03-15
+58,64,Female,48.9,166.9,Sedentary,Dairy-Free,1051,1261,2025-03-15
+59,18,Female,75.3,177.7,Moderately Active,Mediterranean,1613,2500,2025-03-15
+60,54,Male,70.2,174.6,Very Active,Keto,1529,2637,2025-03-15
+61,47,Male,89.3,180.1,Very Active,Mediterranean,1789,3085,2025-03-15
+62,38,Female,63.9,157.2,Extremely Active,Gluten-Free,1271,2415,2025-03-15
+63,71,Male,81.6,173.9,Lightly Active,Mediterranean,1553,2135,2025-03-15
+64,49,Female,74.1,167.4,Very Active,Dairy-Free,1381,2383,2025-03-15
+65,19,Female,61.1,165.4,Moderately Active,Pescatarian,1389,2153,2025-03-15
+66,67,Female,67.0,158.8,Extremely Active,Vegan,1167,2217,2025-03-15
+67,29,Female,63.9,167.6,Lightly Active,Vegetarian,1381,1899,2025-03-15
+68,67,Male,82.5,173.6,Extremely Active,Mediterranean,1580,3002,2025-03-15
+69,51,Female,47.8,164.8,Lightly Active,Keto,1093,1502,2025-03-15
+70,28,Male,87.0,179.5,Extremely Active,Low-Carb,1857,3528,2025-03-15
+71,54,Female,71.1,169.5,Sedentary,Vegan,1339,1607,2025-03-15
+72,35,Male,61.7,180.4,Extremely Active,None,1574,2992,2025-03-15
+73,40,Female,67.6,162.6,Sedentary,None,1331,1597,2025-03-15
+74,65,Female,56.6,155.7,Moderately Active,None,1053,1632,2025-03-15
+75,58,Male,91.8,174.1,Very Active,Pescatarian,1721,2969,2025-03-15
+76,64,Female,86.4,171.7,Extremely Active,Pescatarian,1457,2768,2025-03-15
+77,33,Female,64.9,160.8,Lightly Active,Keto,1328,1826,2025-03-15
+78,46,Female,61.8,160.0,Very Active,Low-Carb,1227,2117,2025-03-15
+79,61,Female,65.6,165.3,Extremely Active,Dairy-Free,1223,2324,2025-03-15
+80,67,Male,80.9,165.9,Extremely Active,None,1517,2881,2025-03-15
+81,34,Female,78.6,161.0,Moderately Active,Paleo,1461,2265,2025-03-15
+82,27,Female,65.0,163.2,Very Active,Mediterranean,1373,2369,2025-03-15
+83,25,Female,56.7,166.9,Sedentary,Vegan,1325,1590,2025-03-15
+84,74,Female,56.6,156.3,Sedentary,Paleo,1012,1214,2025-03-15
+85,61,Male,84.7,177.3,Extremely Active,Paleo,1655,3144,2025-03-15
+86,54,Female,54.3,170.1,Sedentary,Vegetarian,1175,1410,2025-03-15
+87,66,Male,102.3,174.0,Extremely Active,Paleo,1786,3393,2025-03-15
+88,33,Female,67.1,167.2,Lightly Active,Dairy-Free,1390,1911,2025-03-15
+89,41,Male,89.4,166.8,Very Active,Pescatarian,1737,2996,2025-03-15
+90,67,Male,63.9,171.4,Very Active,Paleo,1381,2382,2025-03-15
+91,26,Male,73.1,183.7,Very Active,Vegan,1754,3025,2025-03-15
+92,35,Female,47.7,175.1,Sedentary,Vegetarian,1235,1482,2025-03-15
+93,47,Male,76.6,176.5,Sedentary,Vegetarian,1639,1967,2025-03-15
+94,66,Non-binary,61.9,181.0,Sedentary,Paleo,1259,1511,2025-03-15
+95,66,Female,77.4,164.3,Moderately Active,None,1310,2030,2025-03-15
+96,72,Male,83.6,178.8,Extremely Active,Paleo,1599,3038,2025-03-15
+97,40,Female,71.2,162.3,Sedentary,None,1366,1639,2025-03-15
+98,30,Female,62.4,167.0,Lightly Active,Dairy-Free,1357,1866,2025-03-15
+99,51,Male,78.9,185.9,Lightly Active,None,1701,2339,2025-03-15
+100,22,Female,90.4,161.6,Extremely Active,Keto,1643,3122,2025-03-15
