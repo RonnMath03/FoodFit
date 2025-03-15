@@ -17,10 +17,10 @@ def test_predict_portion():
     """Test the predict_portion endpoint"""
     print("\n===== Testing /predict_portion endpoint =====")
     payload = {
-        "user_id": "35",  # Valid user ID from dataset (range U1-U100)
-        "food_id": "128",  # Valid food ID from dataset (range F1-F200)
-        "meal_type": "Snack",  # Valid meal types: Breakfast, Lunch, Dinner, Snack
-        "hunger_level": 3    # Valid hunger levels: 1-5
+        "user_id": "1",  # Valid user ID from dataset 
+        "food_id": "1",  # Valid food ID from dataset 
+        "meal_type": "Dinner",  # Valid meal types: Breakfast, Lunch, Dinner, Snack
+        "hunger_level": 5   # Valid hunger levels: 1-5
     }
     print("Request payload:")
     pprint(payload)
@@ -36,9 +36,9 @@ def test_predict_waste():
     payload = {
         "user_id": "23",
         "food_id": "128",
-        "portion_size": 300,  # Reasonable portion size in grams
+        "portion_size": 500,  # Reasonable portion size in grams
         "meal_type": "Dinner",
-        "hunger_level": 2
+        "hunger_level": 1
     }
     print("Request payload:")
     pprint(payload)

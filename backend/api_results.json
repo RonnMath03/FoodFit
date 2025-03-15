@@ -1,0 +1,35 @@
+{
+  "health": {
+    "status": "running"
+  },
+  "predict_portion": {
+    "optimal_portion_g": 283
+  },
+  "predict_waste": {
+    "likely_waste": 1,
+    "waste_probability": 0.79
+  },
+  "recommend_meals": [
+    {
+      "category": "Appetizer",
+      "food_id": 98,
+      "food_type": "Finger Food",
+      "name": "Finger Food",
+      "score": 3.25
+    },
+    {
+      "category": "Appetizer",
+      "food_id": 90,
+      "food_type": "Dip",
+      "name": "Dip",
+      "score": 2.75
+    },
+    {
+      "category": "Appetizer",
+      "food_id": 172,
+      "food_type": "Salad",
+      "name": "Seasonal Chicken Salad",
+      "score": 2.625
+    }
+  ]
+}
