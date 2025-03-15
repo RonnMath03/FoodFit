@@ -7,7 +7,7 @@
   },
   "predict_waste": {
     "likely_waste": 1,
-    "waste_probability": 0.79
+    "waste_probability": 0.8
   },
   "recommend_meals": [
     {
