@@ -1,7 +1,7 @@
 # FoodFit
 
 <p align="center">
-  <img src="frontend/img1.png" alt="FoodFit Logo" width="200"/>
+  <img src="frontend\public\images\logo5.png" alt="FoodFit Logo" width="200"/>
 </p>
 
 ## 📋 Overview
