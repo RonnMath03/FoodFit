@@ -16,7 +16,7 @@ import {
   Image,
 } from '@chakra-ui/react';
 import { useNavigate } from 'react-router-dom';
-import { useAuthStore } from '../../lib/store';
+import { useAuthStore } from '../../libr/store';
 
 function LoginPage() {
   const navigate = useNavigate();

@@ -4,7 +4,7 @@ import {
   Progress, Tooltip, useToast
 } from '@chakra-ui/react';
 import { useParams } from 'react-router-dom';
-import { useCartStore } from '../../lib/store';
+import { useCartStore } from '../../libr/store';
 import CaloriesProgressBar from '../../components/CaloriesProgressBar';
 
 const sampleMenu = {

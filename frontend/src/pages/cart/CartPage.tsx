@@ -27,7 +27,7 @@ import {
   ModalFooter,
   ModalCloseButton,
 } from '@chakra-ui/react';
-import { useCartStore } from '../../lib/store';
+import { useCartStore } from '../../libr/store';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useNavigate } from 'react-router-dom';
 import OrderSuccessAnimation from '../../components/OrderSuccessAnimation';

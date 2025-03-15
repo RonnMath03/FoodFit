@@ -1,7 +1,7 @@
 import React from 'react';
 import { Box, Flex, Link as ChakraLink, Image, Button } from '@chakra-ui/react';
 import { Link as RouterLink, useLocation } from 'react-router-dom';
-import { useAuthStore } from '../lib/store';
+import { useAuthStore } from '../libr/store';
 
 function Navigation() {
   const { isAuthenticated } = useAuthStore();
