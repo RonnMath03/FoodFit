@@ -1,5 +1,3 @@
-# FoodFit
-
 <p align="center">
   <img src="frontend\public\images\logo5.png" alt="FoodFit Logo" width="200"/>
 </p>
