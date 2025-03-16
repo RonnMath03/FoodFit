@@ -1,87 +1,129 @@
 import React from 'react';
-import { Box, Flex, Link as ChakraLink, Image, Button } from '@chakra-ui/react';
+import { Box, Flex, Image, Button, Tooltip } from '@chakra-ui/react';
 import { Link as RouterLink, useLocation } from 'react-router-dom';
 
 function Navigation() {
   const location = useLocation();
 
-  // Don't show navigation on login page
-  if (location.pathname === '/') {
+  // Don't show navigation on splash screen or hunger level page
+  if (location.pathname === '/' || location.pathname === '/hunger-level') {
     return null;
   }
 
   return (
     <Box 
       bg="brand.500" 
-      px={6} 
-      py={3}  // Changed back to original padding
+      px={4}
+      py={2}
       position="fixed"
-      top={0}
-      left={0}
-      right={0}
+      bottom={4}
+      left="50%"
+      transform="translateX(-50%)"
       zIndex={1000}
-      boxShadow="sm"
+      boxShadow="lg"
+      borderRadius="xl"
+      width={{ base: "90%", sm: "80%", md: "60%", lg: "50%" }}
+      maxWidth="500px"
     >
       <Flex align="center" justify="space-between">
-        <Flex gap={6} align="center">
-          {/* Remove isAuthenticated condition temporarily for testing */}
-          <>
+        {/* Left side - Home and Donation */}
+        <Flex gap={2} align="center">
+          <Tooltip label="Restaurants" placement="top">
             <Button
               as={RouterLink}
               to="/restaurants"
               variant="ghost"
               color="white"
-              fontSize="lg"  // Changed from md to lg
-              fontWeight="bold"  // Changed from semibold to bold
-              _hover={{ 
-                bg: 'whiteAlpha.200',
-                textDecoration: 'none'
-              }}
+              p={1}
+              minW="auto"
+              _hover={{ bg: 'whiteAlpha.200' }}
+              aria-label="Restaurants"
             >
-              Restaurants
+              <Image 
+                src="/images/food.png"
+                alt="Home"
+                height="30px"
+                width="30px"
+                objectFit="contain"
+              />
             </Button>
+          </Tooltip>
+          
+          <Tooltip label="Donation" placement="top">
             <Button
               as={RouterLink}
               to="/donate"
               variant="ghost"
               color="white"
-              fontSize="lg"  // Changed from md to lg
-              fontWeight="bold"  // Changed from semibold to bold
-              _hover={{ 
-                bg: 'whiteAlpha.200',
-                textDecoration: 'none'
-              }}
+              p={1}
+              minW="auto"
+              _hover={{ bg: 'whiteAlpha.200' }}
+              aria-label="Donation"
             >
-              Donation
+              <Image 
+                src="/images/donation.png"
+                alt="Donation"
+                height="30px"
+                width="30px"
+                objectFit="contain"
+              />
             </Button>
+          </Tooltip>
+        </Flex>
+        
+        {/* Center - FoodFit Logo */}
+        <Image 
+          src="/images/logo7.png"
+          alt="FoodFit Logo"
+          height="35px"
+          width="auto"
+          objectFit="contain"
+        />
+        
+        {/* Right side - Cart and Profile */}
+        <Flex gap={2} align="center">
+          <Tooltip label="Cart" placement="top">
             <Button
               as={RouterLink}
               to="/cart"
               variant="ghost"
               color="white"
-              p={2}
-              _hover={{ 
-                bg: 'whiteAlpha.200',
-                textDecoration: 'none'
-              }}
+              p={1}
+              minW="auto"
+              _hover={{ bg: 'whiteAlpha.200' }}
+              aria-label="Cart"
             >
               <Image 
-                src="/images/cart2.png"  // Changed from cart.png to cart2.png
+                src="/images/cart.png"
                 alt="Cart"
-                height="43px"
-                width="43px"
+                height="30px"
+                width="30px"
                 objectFit="contain"
               />
             </Button>
-          </>
+          </Tooltip>
+          
+          <Tooltip label="Profile" placement="top">
+            <Button
+              as={RouterLink}
+              to="/profile"
+              variant="ghost"
+              color="white"
+              p={1}
+              minW="auto"
+              _hover={{ bg: 'whiteAlpha.200' }}
+              aria-label="Profile"
+            >
+              <Image 
+                src="/images/profilepic.png"
+                alt="Profile"
+                height="30px"
+                width="30px"
+                objectFit="contain"
+              />
+            </Button>
+          </Tooltip>
         </Flex>
-        <Image 
-          src="/images/translogo.png"
-          alt="Logo"
-          height="40px"  // Restored to original size
-          width="auto"
-          objectFit="contain"
-        />
       </Flex>
     </Box>
   );
