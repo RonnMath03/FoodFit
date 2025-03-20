@@ -116,6 +116,14 @@ function RestaurantListPage() {
 
   return (
     <Box maxW="4xl" mx="auto" bg="white" p={4} borderRadius="lg" boxShadow="md">
+      <Flex align="center" mb={8}>
+          <Image 
+            src="/images/logo5.png"
+            alt="FoodFit Logo"
+            height="60px"
+            mr={4}
+          />
+      </Flex>
       <VStack spacing={4} align="stretch">
         <SimpleGrid columns={{ base: 1, md: 2 }} spacing={4}>
           {sampleRestaurants.map((restaurant) => (

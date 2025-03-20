@@ -12,7 +12,7 @@ function Navigation() {
 
   return (
     <Box 
-      bg="brand.500" 
+      bg="brand.400" 
       px={4}
       py={2}
       position="fixed"
@@ -41,7 +41,7 @@ function Navigation() {
             >
               <Image 
                 src="/images/food.png"
-                alt="Home"
+                alt="Restaurant"
                 height="30px"
                 width="30px"
                 objectFit="contain"
@@ -72,14 +72,26 @@ function Navigation() {
         </Flex>
         
         {/* Center - FoodFit Logo */}
-        <Image 
-          src="/images/logo7.png"
-          alt="FoodFit Logo"
-          height="35px"
-          width="auto"
-          objectFit="contain"
-        />
-        
+        <Tooltip label="Home" placement="top">
+            <Button
+              as={RouterLink}
+              to="/home"
+              variant="ghost"
+              color="white"
+              p={1}
+              minW="auto"
+              _hover={{ bg: 'whiteAlpha.200' }}
+              aria-label="Home"
+            >
+              <Image 
+                src="/images/logo7.png"
+                alt="Home"
+                height="35px"
+                width="auto"
+                objectFit="contain"
+              />
+            </Button>
+          </Tooltip>
         {/* Right side - Cart and Profile */}
         <Flex gap={2} align="center">
           <Tooltip label="Cart" placement="top">

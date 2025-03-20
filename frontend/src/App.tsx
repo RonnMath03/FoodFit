@@ -10,6 +10,7 @@ import SplashScreen from './components/SplashScreen';
 import HungerLevelPage from './pages/HungerLevelPage';
 import Navigation from './components/Navigation';
 import ProfilePage from './pages/profile/ProfilePage';
+import HomePage from './pages/home/HomePage';
 
 const queryClient = new QueryClient();
 
@@ -47,11 +48,12 @@ function App() {
             <Box p={4} >
               <Routes>
                 <Route path="/" element={<SplashScreen />} />
+                <Route path="/hunger-level" element={<HungerLevelPage />} />
+                <Route path="/home" element={<HomePage />} />
                 <Route path="/restaurants" element={<RestaurantListPage />} />
                 <Route path="/menu/:restaurantId" element={<MenuPage />} />
                 <Route path="/cart" element={<CartPage />} />
                 <Route path="/donate" element={<DonationPage />} />
-                <Route path="/hunger-level" element={<HungerLevelPage />} />
                 <Route path="/profile" element={<ProfilePage />} />
               </Routes>
             </Box>
